@@ -91,7 +91,7 @@
 								<div class="collapse navbar-collapse">
 									<ul class="nav navbar-nav navbar-right">
 										<li class="smooth-menu"><a href="#home">home</a></li>
-										<li class="smooth-menu"><a href="#gallery">Service</a></li>
+										<li class="smooth-menu"><a href="#service">Service</a></li>
 										<li class="smooth-menu"><a href="#pack">Contact Us </a></li>
 										<li class="smooth-menu"><a href="#spo">FAQ</a></li>
 										<!-- <li class="smooth-menu"><a href="#blog">blog</a></li>
@@ -215,16 +215,22 @@
 			<div class="container">
 
 				<div class="service-counter text-center">
+                    <div class="service-header text-center">
+						<h2>
+							<strong>Our Service</strong>
+						</h2>
+
+					</div><!--/.gallery-header-->
 
 					<div class="col-md-4 col-sm-4">
 						<div class="single-service-box">
 							<div class="service-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/service/s1.png')}}" alt="service-icon" />
+								<img src="{{ secure_asset('TourNest-master/assets/images/service/store-icon.png')}}" alt="service-icon" />
 							</div><!--/.service-img-->
 							<div class="service-content">
 								<h2>
 									<a href="#">
-									amazing tour packages
+									Fullfilments
 									</a>
 								</h2>
 								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
@@ -235,12 +241,12 @@
 					<div class="col-md-4 col-sm-4">
 						<div class="single-service-box">
 							<div class="service-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/service/s2.png')}}" alt="service-icon" />
+								<img src="{{ secure_asset('TourNest-master/assets/images/service/ship-icon.png')}}" alt="service-icon" />
 							</div><!--/.service-img-->
 							<div class="service-content">
 								<h2>
 									<a href="#">
-										book top class hotel
+										Shipping
 									</a>
 								</h2>
 								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
@@ -251,16 +257,16 @@
 					<div class="col-md-4 col-sm-4">
 						<div class="single-service-box">
 							<div class="statistics-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/service/s3.png')}}" alt="service-icon" />
+								<img src="{{ secure_asset('TourNest-master/assets/images/service/web-icon.png')}}" alt="service-icon" />
 							</div><!--/.service-img-->
 							<div class="service-content">
 
 								<h2>
 									<a href="#">
-										online flight booking
+										API Integration
 									</a>
 								</h2>
-								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
+								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla. </p>
 							</div><!--/.service-content-->
 						</div><!--/.single-service-box-->
 					</div><!--/.col-->
