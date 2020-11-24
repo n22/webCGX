@@ -17,38 +17,38 @@
 		<title>CGX</title>
 
 		<!-- favicon img -->
-		<link rel="shortcut icon" type="image/icon" href="{{ asset('TourNest-master/assets/logo/favicon.png')}}"/>
+		<link rel="shortcut icon" type="image/icon" href="{{ secure_asset('TourNest-master/assets/logo/favicon.png')}}"/>
 
 		<!--font-awesome.min.css-->
-		<link rel="stylesheet" href="{{ asset('TourNest-master/assets/css/font-awesome.min.css')}}" />
+		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/font-awesome.min.css')}}" />
 
 		<!--animate.css-->
-		<link rel="stylesheet" href="{{ asset('TourNest-master/assets/css/animate.css')}}" />
+		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/animate.css')}}" />
 
 		<!--hover.css-->
-		<link rel="stylesheet" href="{{ asset('TourNest-master/assets/css/hover-min.css')}}">
+		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/hover-min.css')}}">
 
 		<!--datepicker.css-->
-		<link rel="stylesheet"  href="{{ asset('TourNest-master/assets/css/datepicker.css')}}" >
+		<link rel="stylesheet"  href="{{ secure_asset('TourNest-master/assets/css/datepicker.css')}}" >
 
 		<!--owl.carousel.css-->
-        <link rel="stylesheet" href="{{ asset('TourNest-master/assets/css/owl.carousel.min.css')}}">
-		<link rel="stylesheet" href="{{ asset('TourNest-master/assets/css/owl.theme.default.min.css')}}"/>
+        <link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/owl.carousel.min.css')}}">
+		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/owl.theme.default.min.css')}}"/>
 
 		<!-- range css-->
-        <link rel="stylesheet" href="{{ asset('TourNest-master/assets/css/jquery-ui.min.css')}}" />
+        <link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/jquery-ui.min.css')}}" />
 
 		<!--bootstrap.min.css-->
-		<link rel="stylesheet" href="{{ asset('TourNest-master/assets/css/bootstrap.min.css')}}" />
+		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/bootstrap.min.css')}}" />
 
 		<!-- bootsnav -->
-		<link rel="stylesheet" href="{{ asset('TourNest-master/assets/css/bootsnav.css')}}"/>
+		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/bootsnav.css')}}"/>
 
 		<!--style.css-->
-		<link rel="stylesheet" href="{{ asset('TourNest-master/assets/css/style.css')}}" />
+		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/style.css')}}" />
 
 		<!--responsive.css-->
-		<link rel="stylesheet" href="{{ asset('TourNest-master/assets/css/responsive.css')}}" />
+		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/responsive.css')}}" />
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,7 +74,7 @@
 						<div class="col-sm-2">
 							<div class="logo">
 								<a href="index.html">
-                                <img src="{{ asset('TourNest-master/assets/images/home/cgxlogo.png')}}"/>
+                                <img src="{{ secure_asset('TourNest-master/assets/images/home/cgxlogo.png')}}"/>
 									<!-- C<span>GX</span> -->
 								</a>
 							</div><!-- /.logo-->
@@ -219,7 +219,7 @@
 					<div class="col-md-4 col-sm-4">
 						<div class="single-service-box">
 							<div class="service-img">
-								<img src="{{ asset('TourNest-master/assets/images/service/s1.png')}}" alt="service-icon" />
+								<img src="{{ secure_asset('TourNest-master/assets/images/service/s1.png')}}" alt="service-icon" />
 							</div><!--/.service-img-->
 							<div class="service-content">
 								<h2>
@@ -235,7 +235,7 @@
 					<div class="col-md-4 col-sm-4">
 						<div class="single-service-box">
 							<div class="service-img">
-								<img src="{{ asset('TourNest-master/assets/images/service/s2.png')}}" alt="service-icon" />
+								<img src="{{ secure_asset('TourNest-master/assets/images/service/s2.png')}}" alt="service-icon" />
 							</div><!--/.service-img-->
 							<div class="service-content">
 								<h2>
@@ -251,7 +251,7 @@
 					<div class="col-md-4 col-sm-4">
 						<div class="single-service-box">
 							<div class="statistics-img">
-								<img src="{{ asset('TourNest-master/assets/images/service/s3.png')}}" alt="service-icon" />
+								<img src="{{ secure_asset('TourNest-master/assets/images/service/s3.png')}}" alt="service-icon" />
 							</div><!--/.service-img-->
 							<div class="service-content">
 
@@ -290,7 +290,7 @@
 
 						  			<div class="col-md-6">
 						  				<div class="filtr-item">
-											<img src="{{ asset('TourNest-master/assets/images/gallary/g1.jpg')}}" alt="portfolio image"/>
+											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g1.jpg')}}" alt="portfolio image"/>
 											<div class="item-title">
 												<a href="#">
 													china
@@ -302,7 +302,7 @@
 
 						  			<div class="col-md-6">
 						  				<div class="filtr-item">
-											<img src="{{ asset('TourNest-master/assets/images/gallary/g2.jpg')}}" alt="portfolio image"/>
+											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g2.jpg')}}" alt="portfolio image"/>
 											<div class="item-title">
 												<a href="#">
 													venuzuala
@@ -314,7 +314,7 @@
 
 						  			<div class="col-md-4">
 						  				<div class="filtr-item">
-											<img src="{{ asset('TourNest-master/assets/images/gallary/g3.jpg')}}" alt="portfolio image"/>
+											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g3.jpg')}}" alt="portfolio image"/>
 											<div class="item-title">
 												<a href="#">
 													brazil
@@ -326,7 +326,7 @@
 
 						  			<div class="col-md-4">
 						  				<div class="filtr-item">
-											<img src="{{ asset('TourNest-master/assets/images/gallary/g4.jpg')}}" alt="portfolio image"/>
+											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g4.jpg')}}" alt="portfolio image"/>
 											<div class="item-title">
 												<a href="#">
 													australia
@@ -338,7 +338,7 @@
 
 						  			<div class="col-md-4">
 						  				<div class="filtr-item">
-											<img src="{{ asset('TourNest-master/assets/images/gallary/g5.jpg')}}" alt="portfolio image"/>
+											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g5.jpg')}}" alt="portfolio image"/>
 											<div class="item-title">
 												<a href="#">
 													netharland
@@ -350,7 +350,7 @@
 
 						  			<div class="col-md-8">
 						  				<div class="filtr-item">
-											<img src="{{ asset('TourNest-master/assets/images/gallary/g6.jpg')}}" alt="portfolio image"/>
+											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g6.jpg')}}" alt="portfolio image"/>
 											<div class="item-title">
 												<a href="#">
 													turkey
@@ -426,7 +426,7 @@
 
 						<div class="col-md-4 col-sm-6">
 							<div class="single-package-item">
-								<img src="{{ asset('TourNest-master/assets/images/packages/p1.jpg')}}" alt="package-place">
+								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p1.jpg')}}" alt="package-place">
 								<div class="single-package-item-txt">
 									<h3>italy <span class="pull-right">$499</span></h3>
 									<div class="packages-para">
@@ -465,7 +465,7 @@
 
 						<div class="col-md-4 col-sm-6">
 							<div class="single-package-item">
-								<img src="{{ asset('TourNest-master/assets/images/packages/p2.jpg')}}" alt="package-place">
+								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p2.jpg')}}" alt="package-place">
 								<div class="single-package-item-txt">
 									<h3>england <span class="pull-right">$1499</span></h3>
 									<div class="packages-para">
@@ -504,7 +504,7 @@
 
 						<div class="col-md-4 col-sm-6">
 							<div class="single-package-item">
-								<img src="{{ asset('TourNest-master/assets/images/packages/p3.jpg')}}" alt="package-place">
+								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p3.jpg')}}" alt="package-place">
 								<div class="single-package-item-txt">
 									<h3>france <span class="pull-right">$1199</span></h3>
 									<div class="packages-para">
@@ -543,7 +543,7 @@
 
 						<div class="col-md-4 col-sm-6">
 							<div class="single-package-item">
-								<img src="{{ asset('TourNest-master/assets/images/packages/p4.jpg')}}" alt="package-place">
+								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p4.jpg')}}" alt="package-place">
 								<div class="single-package-item-txt">
 									<h3>india <span class="pull-right">$799</span></h3>
 									<div class="packages-para">
@@ -582,7 +582,7 @@
 
 						<div class="col-md-4 col-sm-6">
 							<div class="single-package-item">
-								<img src="{{ asset('TourNest-master/assets/images/packages/p5.jpg')}}" alt="package-place">
+								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p5.jpg')}}" alt="package-place">
 								<div class="single-package-item-txt">
 									<h3>spain <span class="pull-right">$999</span></h3>
 									<div class="packages-para">
@@ -621,7 +621,7 @@
 
 						<div class="col-md-4 col-sm-6">
 							<div class="single-package-item">
-								<img src="{{ asset('TourNest-master/assets/images/packages/p6.jpg')}}" alt="package-place">
+								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p6.jpg')}}" alt="package-place">
 								<div class="single-package-item-txt">
 									<h3>thailand <span class="pull-right">$799</span></h3>
 									<div class="packages-para">
@@ -684,7 +684,7 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="{{ asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
@@ -707,7 +707,7 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="{{ asset('TourNest-master/assets/images/client/testimonial2.jpg')}}" alt="img"/>
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial2.jpg')}}" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
@@ -730,7 +730,7 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="{{ asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
@@ -753,7 +753,7 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="{{ asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
@@ -776,7 +776,7 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="{{ asset('TourNest-master/assets/images/client/testimonial2.jpg')}}" alt="img"/>
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial2.jpg')}}" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
@@ -799,7 +799,7 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="{{ asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
@@ -822,7 +822,7 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="{{ asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
@@ -845,7 +845,7 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="{{ asset('TourNest-master/assets/images/client/testimonial2.jpg')}}" alt="img"/>
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial2.jpg')}}" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
@@ -868,7 +868,7 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="{{ asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
@@ -956,7 +956,7 @@
 						<div class="col-sm-4">
 							<div class="single-special-offer">
 								<div class="single-special-offer-bg">
-									<img src="{{ asset('TourNest-master/assets/images/offer/offer-shape.png')}}" alt="offer-shape">
+									<img src="{{ secure_asset('TourNest-master/assets/images/offer/offer-shape.png')}}" alt="offer-shape">
 								</div><!--/.single-special-offer-bg-->
 								<div class="single-special-shape-txt">
 									<h3>special offer</h3>
@@ -991,7 +991,7 @@
 									<div class="thumbnail">
 										<h2>trending news <span>15 november 2017</span></h2>
 										<div class="thumbnail-img">
-											<img src="{{ asset('TourNest-master/assets/images/blog/b1.jpg')}}" alt="blog-img">
+											<img src="{{ secure_asset('TourNest-master/assets/images/blog/b1.jpg')}}" alt="blog-img">
 											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
 
 										</div><!--/.thumbnail-img-->
@@ -1017,7 +1017,7 @@
 									<div class="thumbnail">
 										<h2>trending news <span>15 november 2017</span></h2>
 										<div class="thumbnail-img">
-											<img src="{{ asset('TourNest-master/assets/images/blog/b2.jpg')}}" alt="blog-img">
+											<img src="{{ secure_asset('TourNest-master/assets/images/blog/b2.jpg')}}" alt="blog-img">
 											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
 
 										</div><!--/.thumbnail-img-->
@@ -1042,7 +1042,7 @@
 									<div class="thumbnail">
 										<h2>trending news <span>15 november 2017</span></h2>
 										<div class="thumbnail-img">
-											<img src="{{ asset('TourNest-master/assets/images/blog/b3.jpg')}}" alt="blog-img">
+											<img src="{{ secure_asset('TourNest-master/assets/images/blog/b3.jpg')}}" alt="blog-img">
 											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
 
 										</div><!--/.thumbnail-img-->
@@ -1180,7 +1180,7 @@
 
 
 
-		<script src="{{ asset('TourNest-master/assets/js/jquery.js')}}"></script>
+		<script src="{{ secure_asset('TourNest-master/assets/js/jquery.js')}}"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 
 		<!--modernizr.min.js-->
@@ -1188,34 +1188,34 @@
 
 
 		<!--bootstrap.min.js-->
-		<script  src="{{ asset('TourNest-master/assets/js/bootstrap.min.js')}}"></script>
+		<script  src="{{ secure_asset('TourNest-master/assets/js/bootstrap.min.js')}}"></script>
 
 		<!-- bootsnav js -->
-		<script src="{{ asset('TourNest-master/assets/js/bootsnav.js')}}"></script>
+		<script src="{{ secure_asset('TourNest-master/assets/js/bootsnav.js')}}"></script>
 
 		<!-- jquery.filterizr.min.js -->
-		<script src="{{ asset('TourNest-master/assets/js/jquery.filterizr.min.js')}}"></script>
+		<script src="{{ secure_asset('TourNest-master/assets/js/jquery.filterizr.min.js')}}"></script>
 
 		<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
 		<!--jquery-ui.min.js-->
-        <script src="{{ asset('TourNest-master/assets/js/jquery-ui.min.js')}}"></script>
+        <script src="{{ secure_asset('TourNest-master/assets/js/jquery-ui.min.js')}}"></script>
 
         <!-- counter js -->
-		<script src="{{ asset('TourNest-master/assets/js/jquery.counterup.min.js')}}"></script>
-		<script src="{{ asset('TourNest-master/assets/js/waypoints.min.js')}}"></script>
+		<script src="{{ secure_asset('TourNest-master/assets/js/jquery.counterup.min.js')}}"></script>
+		<script src="{{ secure_asset('TourNest-master/assets/js/waypoints.min.js')}}"></script>
 
 		<!--owl.carousel.js-->
-        <script  src="{{ asset('TourNest-master/assets/js/owl.carousel.min.js')}}"></script>
+        <script  src="{{ secure_asset('TourNest-master/assets/js/owl.carousel.min.js')}}"></script>
 
         <!-- jquery.sticky.js -->
-		<script src="{{ asset('TourNest-master/assets/js/jquery.sticky.js')}}"></script>
+		<script src="{{ secure_asset('TourNest-master/assets/js/jquery.sticky.js')}}"></script>
 
         <!--datepicker.js-->
-        <script  src="{{ asset('TourNest-master/assets/js/datepicker.js')}}"></script>
+        <script  src="{{ secure_asset('TourNest-master/assets/js/datepicker.js')}}"></script>
 
 		<!--Custom JS-->
-		<script src="{{ asset('TourNest-master/assets/js/custom.js')}}"></script>
+		<script src="{{ secure_asset('TourNest-master/assets/js/custom.js')}}"></script>
 
 
 	</body>
