@@ -14,7 +14,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 
 		<!-- TITLE OF SITE -->
-		<title>Travel</title>
+		<title>CGX</title>
 
 		<!-- favicon img -->
 		<link rel="shortcut icon" type="image/icon" href="TourNest-master/assets/logo/favicon.png"/>
