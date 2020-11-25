@@ -90,7 +90,7 @@
 								</div><!-- /.navbar-header-->
 								<div class="collapse navbar-collapse">
 									<ul class="nav navbar-nav navbar-right">
-										<li class="smooth-menu"><a href="#home">home</a></li>
+										<li class="smooth-menu"><a href="#home">Home</a></li>
 										<li class="smooth-menu"><a href="#service">Service</a></li>
 										<li class="smooth-menu"><a href="#pack">Contact Us </a></li>
 										<li class="smooth-menu"><a href="#spo">FAQ</a></li>
@@ -230,7 +230,7 @@
 							<div class="service-content">
 								<h2>
 									<a href="#">
-									Fullfilments
+									Fulfillment
 									</a>
 								</h2>
 								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
@@ -275,7 +275,78 @@
 			</div><!--/.container-->
 
 		</section><!--/.service-->
-		<!--service end-->
+        <!--service end-->
+
+        <!--special-offer start-->
+        <section id="benefits" class="special-offer">
+			<div class="container">
+				<div class="special-offer-content">
+					<div class="row">
+						<div class="col-lg-5">
+							<div class="single-special-offer">
+								<div class="single-special-offer-txt">
+									<h2><strong>Save Time & Enjoy <br>Our Benefits!</strong></h2>
+
+								</div><!--/.single-special-offer-txt-->
+							</div><!--/.single-special-offer-->
+                        </div><!--/.col-->
+                        <div class="benefit">
+                            <div class="col-lg-7">
+                                <div class="row">
+                                    <div class="benefit-image">
+                                        <div class="col-md-2">
+                                        <img src="{{ secure_asset('TourNest-master/assets/images/benefit/scallable-1.png')}}" alt="benefit-icon" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h3>Scalability Fulfillment</h3>
+                                        <p>We store, regular quality control check, profesionally pack, and manage your inventory. No matter how big or small, our space is ready for your company growth</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="benefit-image">
+                                        <div class="col-md-2">
+                                        <img src="{{ secure_asset('TourNest-master/assets/images/benefit/analitik-1.png')}}" alt="benefit-icon" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h3>Analytical Evaluation</h3>
+                                        <p>We don't just pack and ship, we will also give you an in-depth insight (e.g: which product sells the most in which time of the year, etc). Giving you a more accurate knowledge of your customer behavior</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="benefit-image">
+                                        <div class="col-md-2">
+                                        <img src="{{ secure_asset('TourNest-master/assets/images/benefit/accurate-1.png')}}" alt="benefit-icon" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h3>Accurate Logistical Services</h3>
+                                        <p>We arrange your shipment accurately with the most efficient cost. Whether its by land, air, sea, or multi mode, we deliver on time to satisfy you and your customer needs.</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="benefit-image">
+                                        <div class="col-md-2">
+                                        <img src="{{ secure_asset('TourNest-master/assets/images/benefit/secured-1.png')}}" alt="benefit-icon" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h3>Secured Facility</h3>
+                                        <p>Our facilities have 'round the clock (24/7) supervision, we guarantee your products safety and security.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.col-->
+                        </div>
+					</div><!--/.row-->
+				</div><!--/.special-offer-content-->
+			</div><!--/.container-->
+
+		</section><!--/.special-offer end-->
+        <!--special-offer end-->
 
 		<!--galley start-->
 		<section id="gallery" class="gallery">
@@ -900,83 +971,6 @@
 		</section><!--/.testimonial-->
 		<!-- testemonial End -->
 
-
-		<!--special-offer start-->
-		<section id="spo" class="special-offer">
-			<div class="container">
-				<div class="special-offer-content">
-					<div class="row">
-						<div class="col-sm-8">
-							<div class="single-special-offer">
-								<div class="single-special-offer-txt">
-									<h2>thiland</h2>
-									<div class="packages-review special-offer-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="packages-para special-offer-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i> 2 person
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i>  5 star accomodation
-											</span>
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i>  food facilities
-											</span>
-										</p>
-										<p class="offer-para">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem ut labore et dolore magna  aliqua. Ut enim ad minim veniam, quis nostrud exercitation una <br> ullamco laboris nisi ut aliquip ex ea commodo consequat.
-										</p>
-									</div><!--/.packages-para-->
-									<div class="offer-btn-group">
-										<div class="about-btn">
-											<button  class="about-view packages-btn offfer-btn">
-												make tour
-											</button>
-										</div><!--/.about-btn-->
-										<div class="about-btn">
-											<button  class="about-view packages-btn">
-												book now
-											</button>
-										</div><!--/.about-btn-->
-									</div><!--/.offer-btn-group-->
-								</div><!--/.single-special-offer-txt-->
-							</div><!--/.single-special-offer-->
-						</div><!--/.col-->
-						<div class="col-sm-4">
-							<div class="single-special-offer">
-								<div class="single-special-offer-bg">
-									<img src="{{ secure_asset('TourNest-master/assets/images/offer/offer-shape.png')}}" alt="offer-shape">
-								</div><!--/.single-special-offer-bg-->
-								<div class="single-special-shape-txt">
-									<h3>special offer</h3>
-									<h4><span>40%</span><br>off</h4>
-									<p><span>$999</span><br>reguler $ 1450</p>
-								</div><!--/.single-special-shape-txt-->
-							</div><!--/.single-special-offer-->
-						</div><!--/.col-->
-					</div><!--/.row-->
-				</div><!--/.special-offer-content-->
-			</div><!--/.container-->
-
-		</section><!--/.special-offer end-->
-		<!--special-offer end-->
 
 		<!--blog start-->
 		<section id="blog" class="blog">
