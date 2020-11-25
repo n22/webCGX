@@ -185,7 +185,7 @@
 													</div><!--/.travel-budget-->
 												</div><!--/.col-->
 												<div class="clo-sm-5">
-													<div class="about-btn travel-mrt-0 pull-right">
+													<div class="about-btn travel-mrt-0">
 														<button  class="about-view travel-btn">
 															Track
 														</button><!--/.travel-btn-->
@@ -282,7 +282,7 @@
 			<div class="container">
 				<div class="special-offer-content">
 					<div class="row">
-						<div class="col-lg-5">
+						<div class="col-lg-6">
 							<div class="single-special-offer">
 								<div class="single-special-offer-txt">
 									<h2><strong>Save Time & Enjoy Our Benefits!</strong></h2>
@@ -290,7 +290,7 @@
 							</div><!--/.single-special-offer-->
                         </div><!--/.col-->
                         <div class="benefit">
-                            <div class="col-lg-7">
+                            <div class="col-lg-6">
                                 <div class="row">
                                     <div class="benefit-image">
                                         <div class="col-md-2">
