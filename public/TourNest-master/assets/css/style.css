@@ -1103,7 +1103,7 @@ html,body{
 --------------------------------------*/
 .special-offer{
     position: relative;
-    /* background: url(../../assets/images/offer/offer-banner.jpg)no-repeat center; */
+
     background-size: cover;
     height: 600px;
     z-index: 1;
@@ -1119,26 +1119,6 @@ html,body{
     background:#FEBE2F;
     z-index: -1;
 }
-
-/*.single-special-offer-bg*/
-/* .single-special-offer-bg {
-    margin-top: -1px;
-    position: relative;
-    padding-bottom: 42px;
-    z-index: -1;
-} */
-/* .single-special-offer-bg:before {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,216,255,.7);
-    z-index: 1;
-} */
-/* .single-special-offer-bg img {
-    height: 807px;
-} */
 
 .single-special-shape-txt {
     position: absolute;
@@ -1190,7 +1170,7 @@ html,body{
 /*single-special-offer*/
 
 .benefit{
-    padding: 60px 0 0 0;
+    padding: 50px 0 0 0;
 }
 .benefit h3{
     padding: 0 0 10px 0;
