@@ -92,8 +92,8 @@
 									<ul class="nav navbar-nav navbar-right">
 										<li class="smooth-menu"><a href="#home">Home</a></li>
 										<li class="smooth-menu"><a href="#service">Service</a></li>
-										<li class="smooth-menu"><a href="#pack">Contact Us </a></li>
 										<li class="smooth-menu"><a href="#spo">FAQ</a></li>
+										<li class="smooth-menu"><a href="#pack">Contact Us </a></li>
 										<!-- <li class="smooth-menu"><a href="#blog">blog</a></li>
 										<li class="smooth-menu"><a href="#subs">subscription</a></li> -->
 										<li>
@@ -285,8 +285,7 @@
 						<div class="col-lg-5">
 							<div class="single-special-offer">
 								<div class="single-special-offer-txt">
-									<h2><strong>Save Time & Enjoy <br>Our Benefits!</strong></h2>
-
+									<h2><strong>Save Time & Enjoy Our Benefits!</strong></h2>
 								</div><!--/.single-special-offer-txt-->
 							</div><!--/.single-special-offer-->
                         </div><!--/.col-->
@@ -295,48 +294,57 @@
                                 <div class="row">
                                     <div class="benefit-image">
                                         <div class="col-md-2">
-                                        <img src="{{ secure_asset('TourNest-master/assets/images/benefit/scallable-1.png')}}" alt="benefit-icon" />
+                                            <img src="{{ secure_asset('TourNest-master/assets/images/benefit/scallable-1.png')}}" alt="benefit-icon" />
                                         </div>
                                     </div>
-                                    <div class="col-md-10">
-                                        <h3>Scalability Fulfillment</h3>
-                                        <p>We store, regular quality control check, profesionally pack, and manage your inventory. No matter how big or small, our space is ready for your company growth</p>
+                                    <div class="benefit-content">
+                                        <div class="col-md-10">
+                                            <h3>Scalability Fulfillment</h3>
+                                            <p>We store, regular quality control check, profesionally pack, and manage your inventory. No matter how big or small, our space is ready for your company growth</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="benefit-image">
+                                        <div class="col-md-2">
+                                            <img src="{{ secure_asset('TourNest-master/assets/images/benefit/analitik-1.png')}}" alt="benefit-icon" />
+                                        </div>
+                                    </div>
+                                    <div class="benefit-content">
+                                        <div class="col-md-10">
+                                            <h3>Analytical Evaluation</h3>
+                                            <p>We don't just pack and ship, we will also give you an in-depth insight (e.g: which product sells the most in which time of the year, etc). Giving you a more accurate knowledge of your customer behavior</p>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="benefit-image">
                                         <div class="col-md-2">
-                                        <img src="{{ secure_asset('TourNest-master/assets/images/benefit/analitik-1.png')}}" alt="benefit-icon" />
+                                            <img src="{{ secure_asset('TourNest-master/assets/images/benefit/accurate-1.png')}}" alt="benefit-icon" />
                                         </div>
                                     </div>
-                                    <div class="col-md-10">
-                                        <h3>Analytical Evaluation</h3>
-                                        <p>We don't just pack and ship, we will also give you an in-depth insight (e.g: which product sells the most in which time of the year, etc). Giving you a more accurate knowledge of your customer behavior</p>
+                                    <div class="benefit-content">
+                                        <div class="col-md-10">
+                                            <h3>Accurate Logistical Services</h3>
+                                            <p>We arrange your shipment accurately with the most efficient cost. Whether its by land, air, sea, or multi mode, we deliver on time to satisfy you and your customer needs.</p>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="benefit-image">
                                         <div class="col-md-2">
-                                        <img src="{{ secure_asset('TourNest-master/assets/images/benefit/accurate-1.png')}}" alt="benefit-icon" />
+                                            <img src="{{ secure_asset('TourNest-master/assets/images/benefit/secured-1.png')}}" alt="benefit-icon" />
                                         </div>
                                     </div>
-                                    <div class="col-md-10">
-                                        <h3>Accurate Logistical Services</h3>
-                                        <p>We arrange your shipment accurately with the most efficient cost. Whether its by land, air, sea, or multi mode, we deliver on time to satisfy you and your customer needs.</p>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="benefit-image">
-                                        <div class="col-md-2">
-                                        <img src="{{ secure_asset('TourNest-master/assets/images/benefit/secured-1.png')}}" alt="benefit-icon" />
+                                    <div class="benefit-content">
+                                        <div class="col-md-10">
+                                            <h3>Secured Facility</h3>
+                                            <p>Our facilities have 'round the clock (24/7) supervision, we guarantee your products safety and security.</p>
                                         </div>
-                                    </div>
-                                    <div class="col-md-10">
-                                        <h3>Secured Facility</h3>
-                                        <p>Our facilities have 'round the clock (24/7) supervision, we guarantee your products safety and security.</p>
                                     </div>
                                 </div>
                             </div><!--/.col-->
@@ -348,155 +356,340 @@
 		</section><!--/.special-offer end-->
         <!--special-offer end-->
 
-		<!--galley start-->
-		<section id="gallery" class="gallery">
+
+        <!--packages start-->
+		<section id="clients" class="clients">
 			<div class="container">
-				<div class="gallery-details">
-					<div class="gallary-header text-center">
-						<h2>
-							top destination
-						</h2>
-						<p>
-							Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.
-						</p>
-					</div><!--/.gallery-header-->
-					<div class="gallery-box">
-						<div class="gallery-content">
-						  	<div class="filtr-container">
-						  		<div class="row">
+				<div class="gallary-header text-center">
+					<h2>
+						<strong>Clients</strong>
+					</h2>
+				</div><!--/.gallery-header-->
+				<div class="clients-content">
+					<!-- Clients -->
+                    <div class="row text-center">
 
-						  			<div class="col-md-6">
-						  				<div class="filtr-item">
-											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g1.jpg')}}" alt="portfolio image"/>
-											<div class="item-title">
-												<a href="#">
-													china
-												</a>
-												<p><span>20 tours</span><span>15 places</span></p>
-											</div><!-- /.item-title -->
-										</div><!-- /.filtr-item -->
-						  			</div><!-- /.col -->
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-airnav.png')}}" alt="Image Description">
 
-						  			<div class="col-md-6">
-						  				<div class="filtr-item">
-											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g2.jpg')}}" alt="portfolio image"/>
-											<div class="item-title">
-												<a href="#">
-													venuzuala
-												</a>
-												<p><span>12 tours</span><span>9 places</span></p>
-											</div> <!-- /.item-title-->
-										</div><!-- /.filtr-item -->
-						  			</div><!-- /.col -->
 
-						  			<div class="col-md-4">
-						  				<div class="filtr-item">
-											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g3.jpg')}}" alt="portfolio image"/>
-											<div class="item-title">
-												<a href="#">
-													brazil
-												</a>
-												<p><span>25 tours</span><span>10 places</span></p>
-											</div><!-- /.item-title -->
-										</div><!-- /.filtr-item -->
-						  			</div><!-- /.col -->
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-cut-lane.png')}}" alt="Image Description">
 
-						  			<div class="col-md-4">
-						  				<div class="filtr-item">
-											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g4.jpg')}}" alt="portfolio image"/>
-											<div class="item-title">
-												<a href="#">
-													australia
-												</a>
-												<p><span>18 tours</span><span>9 places</span></p>
-											</div> <!-- /.item-title-->
-										</div><!-- /.filtr-item -->
-						  			</div><!-- /.col -->
 
-						  			<div class="col-md-4">
-						  				<div class="filtr-item">
-											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g5.jpg')}}" alt="portfolio image"/>
-											<div class="item-title">
-												<a href="#">
-													netharland
-												</a>
-												<p><span>14 tours</span><span>12 places</span></p>
-											</div> <!-- /.item-title-->
-										</div><!-- /.filtr-item -->
-						  			</div><!-- /.col -->
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/geofreight.png')}}" alt="Image Description">
 
-						  			<div class="col-md-8">
-						  				<div class="filtr-item">
-											<img src="{{ secure_asset('TourNest-master/assets/images/gallary/g6.jpg')}}" alt="portfolio image"/>
-											<div class="item-title">
-												<a href="#">
-													turkey
-												</a>
-												<p><span>14 tours</span><span>6 places</span></p>
-											</div> <!-- /.item-title-->
-										</div><!-- /.filtr-item -->
-						  			</div><!-- /.col -->
 
-						  		</div><!-- /.row -->
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-big.png')}}" alt="Image Description">
 
-						  	</div><!-- /.filtr-container-->
-						</div><!-- /.gallery-content -->
-					</div><!--/.galley-box-->
-				</div><!--/.gallery-details-->
+
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-everwhite.png')}}" alt="Image Description">
+
+
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/pakde.png')}}" alt="Image Description">
+
+                    </div>
+                    <div class="row text-center">
+                        <!-- <div class="d-none d-sm-block w-100"></div> -->
+
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-rollerover.png')}}" alt="Image Description">
+
+
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-transvision.png')}}" alt="Image Description">
+
+
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-fors.png')}}" alt="Image Description">
+
+
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-wif.png')}}" alt="Image Description">
+
+
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-woobiz.png')}}" alt="Image Description">
+
+                    </div><!-- End Clients -->
+				</div><!--/.packages-content-->
 			</div><!--/.container-->
 
-		</section><!--/.gallery-->
-		<!--gallery end-->
+		</section><!--/.packages-->
+		<!--packages end-->
 
-
-		<!--discount-offer start-->
-		<section class="discount-offer">
+		<!-- testemonial Start -->
+		<section   class="testemonial">
 			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="dicount-offer-content text-center">
-							<h2>Join with us within 21 January, 2018 and get upto 40% Discount</h2>
-							<div class="campaign-timer">
-								<div id="timer">
-									<div class="time time-after" id="days">
-										<span></span>
-									</div><!--/.time-->
-									<div class="time time-after" id="hours">
 
-									</div><!--/.time-->
-									<div class="time time-after" id="minutes">
+				<div class="gallary-header text-center">
+					<h2>
+						<strong>Clients</strong>
+					</h2>
 
-									</div><!--/.time-->
-									<div class="time" id="seconds">
+				</div><!--/.gallery-header-->
 
-									</div><!--/.time-->
-								</div><!--/.timer-->
-							</div><!--/.campaign-timer-->
-							<div class="about-btn">
-								<button  class="about-view discount-offer-btn">
-									join now
-								</button>
-							</div><!--/.about-btn-->
+				<div class="owl-carousel owl-theme" id="testemonial-carousel">
 
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-airnav.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
 
-						</div><!-- /.dicount-offer-content-->
-					</div><!-- /.col-->
-				</div><!-- /.row-->
-			</div><!-- /.container-->
+					</div><!--/.item-->
 
-		</section><!-- /.discount-offer-->
-		<!--discount-offer end-->
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-cut-lane.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/geofreight.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-big.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-everwhite.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/pakde.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-rollerover.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-transvision.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-fors.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+                    </div><!--/.item-->
+
+                    <div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-wif.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+                    </div><!--/.item-->
+
+                    <div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-woobiz.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+				</div><!--/.testemonial-carousel-->
+			</div><!--/.container-->
+
+		</section><!--/.testimonial-->
+		<!-- testemonial End -->
 
 		<!--packages start-->
 		<section id="pack" class="packages">
 			<div class="container">
 				<div class="gallary-header text-center">
 					<h2>
-						special packages
+						<strong>Clients</strong>
 					</h2>
-					<p>
-						Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.
-					</p>
 				</div><!--/.gallery-header-->
 				<div class="packages-content">
 					<div class="row">
@@ -742,234 +935,46 @@
 		</section><!--/.packages-->
 		<!--packages end-->
 
-		<!-- testemonial Start -->
-		<section   class="testemonial">
+
+		<!--discount-offer start-->
+		<section class="discount-offer">
 			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="dicount-offer-content text-center">
+							<h2>Join with us within 21 January, 2018 and get upto 40% Discount</h2>
+							<div class="campaign-timer">
+								<div id="timer">
+									<div class="time time-after" id="days">
+										<span></span>
+									</div><!--/.time-->
+									<div class="time time-after" id="hours">
 
-				<div class="gallary-header text-center">
-					<h2>
-						clients reviews
-					</h2>
-					<p>
-						Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.
-					</p>
+									</div><!--/.time-->
+									<div class="time time-after" id="minutes">
 
-				</div><!--/.gallery-header-->
+									</div><!--/.time-->
+									<div class="time" id="seconds">
 
-				<div class="owl-carousel owl-theme" id="testemonial-carousel">
+									</div><!--/.time-->
+								</div><!--/.timer-->
+							</div><!--/.campaign-timer-->
+							<div class="about-btn">
+								<button  class="about-view discount-offer-btn">
+									join now
+								</button>
+							</div><!--/.about-btn-->
 
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
 
-					</div><!--/.item-->
+						</div><!-- /.dicount-offer-content-->
+					</div><!-- /.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
 
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial2.jpg')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+		</section><!-- /.discount-offer-->
+		<!--discount-offer end-->
 
-					</div><!--/.item-->
 
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial2.jpg')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial2.jpg')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/client/testimonial1.jpg')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-				</div><!--/.testemonial-carousel-->
-			</div><!--/.container-->
-
-		</section><!--/.testimonial-->
-		<!-- testemonial End -->
 
 
 		<!--blog start-->

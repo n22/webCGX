@@ -388,8 +388,11 @@ html,body{
 		4. 	Travel-box
 --------------------------------------*/
 .single-travel-boxes {
-    margin-top: -125px;
+    margin-top: -125px !important;
     background: #fff;
+    max-width: 100%;
+    /* float: center; */
+    margin: auto;
 }
 .tab-para p {
     font-size: 24px;
@@ -455,7 +458,7 @@ html,body{
 
 /*===ab-select-box===*/
 .tab-para{
-	padding: 60px 150px 47px 150px;
+	padding: 60px 80px 47px 80px;
 }
 .single-tab-select-box h2{
 	color: #565a5c;
@@ -672,7 +675,7 @@ html,body{
 --------------------------------------*/
 .service {
     position: relative;
-    padding: 80px 0 54px;
+    padding: 60px 0 54px;
 }
 .service-header h2{
     position:relative;
@@ -732,118 +735,18 @@ html,body{
     font-family: 'Poppins', sans-serif;
     margin-top: 17px;
 }
-
 /*-------------------------------------
-        6. Gallery
+        5. Clients
 --------------------------------------*/
-.gallery{
-    background: #f9f9f9;
+.clients{
+    padding:80px 0 90px;
 }
-.gallery-details{
-    margin-top:117px;
-    margin-bottom:109px;
+.clients-content{
+    margin-top:65px;
 }
-.gallery-content {
-    margin-top:62px;
+.clients-content img{
+    padding:0 20px 0 20px
 }
-
-/* gallary-header  */
-.gallary-header h2{
-    position:relative;
-    color:#565a5c;
-    font-size:30px;
-    font-weight:500;
-    text-transform:capitalize;
-    font-family: 'Poppins', sans-serif;
-    padding-bottom:14px;
-}
-.gallary-header p{
-    position:relative;
-    color:#aaa;
-    font-size:16px;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 17px;
-}
-/* featured-header  */
-
-
-/* ---- .item ---- */
-.filtr-container .filtr-item {
-    overflow:hidden;
-    float: left;
-    position:relative;
-    margin-bottom: 30px;
-    overflow:hidden;
-}
-/*.item img*/
-.filtr-container .filtr-item img{
-    width:100%;
-    height:100%;
-    transition:.5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-}
-.filtr-container .filtr-item:hover  img{
-    -webkit-transform:scale(1.5);
-    -moz-transform:scale(1.5);
-    -ms-transform:scale(1.5);
-    -o-transform:scale(1.5);
-    transform:scale(1.5);
-}/*.item img*/
-
-
-
-/*.item-title*/
-.item-title{
-    position: absolute;
-    background:transparent;
-    bottom: 20%;
-    left: 60px;
-    width: 170px;
-    height: 60px;
-    -webkit-transition:all 0.6s linear;
-    -moz-transition:all 0.6s linear;
-    -ms-transition:all 0.6s linear;
-    -o-transition:all 0.6s linear;
-    transition: all 0.6s linear;
-}
-.item-title a {
-    color:#fff;
-    font-size:24px;
-    text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    margin-bottom: 3px;
-    -webkit-transition:all 0.6s linear;
-    -moz-transition:all 0.6s linear;
-    -ms-transition:all 0.6s linear;
-    -o-transition:all 0.6s linear;
-    transition: all 0.6s linear;
-}
-.item-title p {
-    color:#fff;
-    font-size:16px;
-    text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
-    -webkit-transition:all 0.6s linear;
-    -moz-transition:all 0.6s linear;
-    -ms-transition:all 0.6s linear;
-    -o-transition:all 0.6s linear;
-    transition: all 0.6s linear;
-}
-.item-title p span{
-    padding-right: 30px;
-}
-.filtr-container .filtr-item:hover .item-title a,
-.filtr-container .filtr-item:hover .item-title p{
-    color:#2cdbb5;
-}
-/*.item-title*/
-
-
 /*-------------------------------------
         7.  Discount-offer
 --------------------------------------*/
@@ -1012,7 +915,7 @@ html,body{
 .testemonial{
     position:relative;
     background: #f9f9f9;
-    padding:120px 0;
+    padding:80px 0;
 }
 
 /*testemonial-carousel*/
@@ -1036,12 +939,29 @@ html,body{
 }
 
 /*.home1-testm-img*/
+.home1-testm-img{
+    height: 100px;
+    /* width: 80px; */
+    /* text-align: center; */
+    /* margin: auto; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
 .testemonial .owl-carousel .owl-item img {
-    display: inline-block;
-    width:80px;
-    height: 80px;
-    line-height: 80px;
-    border-radius: 50%;
+    /* display: inline-block; */
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    /* line-height: 80px;
+    border-radius: 50%; */
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }/*.home1-testm-img*/
 
 /*owl-carousel*/
@@ -1104,7 +1024,10 @@ html,body{
 .special-offer{
     position: relative;
     background-size: cover;
-    height: 600px;
+    /* height: 600px; */
+    height: auto;
+    padding-bottom: 40px;
+    /* max-height: 600px; */
     z-index: 1;
 }
 .special-offer:after{
@@ -1118,65 +1041,59 @@ html,body{
     z-index: -1;
 }
 
-.single-special-shape-txt {
-    position: absolute;
-    top: 60px;
-    left:62px;
-}
-.single-special-shape-txt h3,.single-special-shape-txt h4{
-    color: #fff;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    text-align: center;
-}
-.single-special-shape-txt h4{
-    text-transform: uppercase;
-    margin: 174px 0;
-    line-height: 1.3;
-}
-.single-special-shape-txt h4 span{
-    font-size: 60px;
-}
-.single-special-shape-txt p{
-    font-size: 20px;
-    font-weight: 500;
-    color: #fff;
-    text-align: center;
-    text-transform: capitalize;
-}
-.single-special-shape-txt p span{
-    font-size: 60px;
-    font-weight: 700;
-}/*.single-special-offer-bg*/
 
 /*single-special-offer*/
 .single-special-offer-txt{
-    text-align: left;
-    padding: 250px 0 0 50px;
-    height: 800px;
+    text-align: center;
+    padding: 100px 0 0 50px;
+    height: auto;
     margin: auto;
-    /* width: 70%; */
 }
 .single-special-offer h2{
     color: black;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    /* margin-bottom: 22px; */
 }
 /*single-special-offer*/
 
 .benefit{
     padding: 50px 0 0 0;
 }
-.benefit h3{
-    padding: 0 0 10px 0;
+.benefit-content {
+    text-align: center;
+    /* display: flex; */
+    padding-top: 20px;
+}
+.benefit-content p{
+    padding: 20px 20px 0;
 }
 .benefit-image{
-    text-align: right;
+    text-align: center;
     padding: 20px 0 0 0;
 }
+
+@media (min-width: 1200px) {
+    .single-special-offer-txt{
+        text-align: left;
+        padding: 250px 0 0 50px;
+        height: auto;
+        margin: auto;
+    }
+    .benefit-content {
+        text-align: left;
+        display: flex;
+        padding-top: 0px;
+    }
+    .benefit-content p{
+        padding: 0;
+    }
+    .benefit-image{
+        text-align: right;
+        padding: 20px 0 0 0;
+    }
+}
+
 .packages-para.special-offer-para p{
     color: #fff;
 }
