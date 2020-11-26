@@ -44,6 +44,83 @@ font-family: 'Poppins', sans-serif;
 	box-sizing:border-box;
 
 }
+/*-------------------------------------
+        0. FAQ Accordion
+--------------------------------------*/
+.faq {
+    padding:30px 0 90px;
+}
+.accordion{
+    padding:30px 30px 0;
+    width: 75%;
+    margin: auto;
+}
+.accordion .card {
+	background: none;
+	border: none;
+}
+.accordion .card .card-header {
+	background: none;
+	border: none;
+	padding: .4rem 1rem;
+	font-family: 'Poppins', sans-serif;
+}
+.accordion .card-header h2 span {
+	float: left;
+	margin-top: 10px;
+}
+.accordion .card-header .btn {
+	color: #2f2f31;
+	font-size: 15px;
+	text-align: left;
+	position: relative;
+	font-weight: 500;
+	padding-left: 2rem;
+}
+.accordion .card-header i {
+	font-size: 1.2rem;
+	font-weight: bold;
+	position: absolute;
+	left: 0;
+	top: 9px;
+}
+.accordion .card-header:hover a{
+    color: #ff8300;
+    text-decoration: none
+}
+/* .accordion .card-header .btn:hover {
+    color: #ff8300;
+    text-decoration: none
+} */
+.accordion .card-body {
+	color: #324353;
+	padding: 0.5rem 3rem;
+}
+.accordion .highlight .btn {
+	color: #74bd30;
+}
+.accordion .highlight i {
+	transform: rotate(180deg);
+}
+/* Accordion */
+/* Accordion */
+.accordion>.card{
+    overflow:hidden
+}
+.accordion>.card:not(:last-of-type){
+    border-bottom:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0
+}
+.accordion>.card:not(:first-of-type){
+    border-top-left-radius:0;
+    border-top-right-radius:0
+}
+.accordion>.card>.card-header{
+    border-radius:0;
+    margin-bottom:-1px
+}
+/* Accordion */
 
 body{
     position: relative;
@@ -306,10 +383,13 @@ html,body{
     justify-content: center;
     align-items: center;
 	position: relative;
-	background: url(../../assets/images/home/banner.jpg)no-repeat;
-	background-size: 100% 100%;
-	background-position: center;
-	min-height: 780px;
+	background: url(../../assets/images/home/banner.jpg);
+    /* background-size: 100% 100%; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 780px;
+    /* height: auto; */
 }
 .about-us:before{
 	position: absolute;
@@ -647,13 +727,17 @@ html,body{
         5. Clients
 --------------------------------------*/
 .clients{
-    padding:80px 0 90px;
+    padding:60px 0 30px;
 }
 .clients-content{
     margin-top:65px;
 }
 .clients-content img{
-    padding:0 20px 0 20px
+    padding:0 20px 0 20px;
+    /* height: auto;
+    width: auto; */
+    max-height: 200px;
+    /* max-width: 100px; */
 }
 /*-------------------------------------
         7.  Discount-offer
@@ -823,7 +907,7 @@ html,body{
 .testemonial{
     position:relative;
     background: #f9f9f9;
-    padding:80px 0;
+    padding:30px 0 30px;
 }
 
 /*testemonial-carousel*/
@@ -889,7 +973,7 @@ html,body{
     background: #aaa;
 }
 .testemonial .owl-theme .owl-dots .owl-dot.active span{
-    background: #00d8ff;
+    background: #F7942E;
 }/*owl-carousel*/
 
 /*home1-testm-txt*/
@@ -906,7 +990,7 @@ html,body{
 }
 .home1-testm-txt h3 a{
     display: block;
-    color: #00d8ff;
+    color: #F7942E;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;

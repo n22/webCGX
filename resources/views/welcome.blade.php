@@ -368,42 +368,31 @@
 				<div class="clients-content">
 					<!-- Clients -->
                     <div class="row text-center">
-
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-airnav.png')}}" alt="Image Description">
-
-
-                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-cut-lane.png')}}" alt="Image Description">
-
-
-                        <img src="{{ secure_asset('TourNest-master/assets/images/client/geofreight.png')}}" alt="Image Description">
-
 
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-big.png')}}" alt="Image Description">
 
-
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-everwhite.png')}}" alt="Image Description">
 
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/pakdeHD2.png')}}" alt="Image Description">
 
-                        <img src="{{ secure_asset('TourNest-master/assets/images/client/pakde.png')}}" alt="Image Description">
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-cut-lane.png')}}" alt="Image Description">
 
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/geofreight.png')}}" alt="Image Description">
                     </div>
                     <div class="row text-center">
                         <!-- <div class="d-none d-sm-block w-100"></div> -->
-
-                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-rollerover.png')}}" alt="Image Description">
-
-
-                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-transvision.png')}}" alt="Image Description">
-
-
-                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-fors.png')}}" alt="Image Description">
-
-
-                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-wif.png')}}" alt="Image Description">
-
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-ojk.png')}}" alt="Image Description">
 
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-woobiz.png')}}" alt="Image Description">
 
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-rollerover.png')}}" alt="Image Description">
+
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-fors.png')}}" alt="Image Description">
+
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-wif.png')}}" alt="Image Description">
+
+                        <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-transvision.png')}}" alt="Image Description">
                     </div><!-- End Clients -->
 				</div><!--/.packages-content-->
 			</div><!--/.container-->
@@ -542,7 +531,30 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/client/pakde.png')}}" alt="img"/>
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/pakdeHD2.png')}}" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->
+						</div><!--/.home1-testm-single-->
+
+                    </div><!--/.item-->
+
+                    <div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-ojk.png')}}" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
@@ -681,7 +693,79 @@
 			</div><!--/.container-->
 
 		</section><!--/.testimonial-->
-		<!-- testemonial End -->
+        <!-- testemonial End -->
+
+        <section class="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="gallary-header text-center">
+                            <h2>
+                                <strong>Frequently Asked Questions</strong>
+                            </h2>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <hr>
+                            <div class="card">
+                                <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne">
+                                    <h2 class="clearfix mb-0">
+                                        <a class="btn btn-link"  aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i>How much does the shipment and warehouse services cost at CGX?</a>
+                                    </h2>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">Our prices and rates here at CGX are standard published rate that you can acquire by emailing us at support@cgx.co.id . However, we also offer customized prices and rates that can be adjusted based on your needs.</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo">
+                                    <h2 class="mb-0">
+                                        <a class="btn btn-link collapsed"  aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i>How does CGX shipment process works?</a>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">Our shipment process will be based on the type of service and mode of transportation of your choosing. After we receive a delivery order, our well-trained and experienced operational team will deliver your package safely & accurately.</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card">
+                                <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree">
+                                    <h2 class="mb-0">
+                                        <a class="btn btn-link collapsed"  aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i>What are the types of shipment services that CGX offer?</a>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">Ensuring that your package arrives safely is our number one priority. We offer various modes of transportation ranging from Land Transport, Sea Transport, Air Transport, as well as Multi Mode. We also offer shipment via our Courier Service. In addition, CGX also accepts overseas and international shipping services.</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card">
+                                <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour">
+                                    <h2 class="mb-0">
+                                        <a class="btn btn-link collapsed"  aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i>How does the fulfillment process works?</a>
+                                    </h2>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                    <div class="card-body">CGX fulfillment service manage three crucial parts in an operational system which includes; stock management, item delivery, as well as inventory that are done by professionals. We offer this service with reasonable prices, strategic location, and any risks that might occur in our warehouse are under our responsibility.</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card">
+                                <div class="card-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive">
+                                    <h2 class="mb-0">
+                                        <a class="btn btn-link collapsed"  aria-expanded="false" aria-controls="collapseFive"><i class="fa fa-chevron-circle-down"></i>Does CGX services includes insurance?</a>
+                                    </h2>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                    <div class="card-body">CGX offers the best treatment possible for all of our services. For risks that might occur in our warehouse are 100% covered by CGX and will be under our responsibility. However for any shipment services, insurance will be provided upon request depending on the value of items that you wish to insure.</div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </clients>
 
 		<!--packages start-->
 		<section id="pack" class="packages">
@@ -1182,7 +1266,20 @@
 		</footer><!-- /.footer-copyright-->
 		<!-- footer-copyright end -->
 
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js">
+        $(document).ready(function(){
+            // Add minus icon for collapse element which is open by default
+            $(".collapse.show").each(function(){
+                $(this).prev(".card-header").addClass("highlight");
+            });
 
+            // Highlight open collapsed element
+            $(".card-header .btn").click(function(){
+                $(".card-header").not($(this).parents()).removeClass("highlight");
+                $(this).parents(".card-header").toggleClass("highlight");
+            });
+        });
+        </script>
 
 
 		<script src="{{ secure_asset('TourNest-master/assets/js/jquery.js')}}"></script>
