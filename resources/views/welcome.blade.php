@@ -126,8 +126,8 @@
 									</h2>
 
                                     <h4>
-                                        <strong>Let us store, pick up, and ship for you! so you<br>
-                                        can focus on your customer and growth.</strong>
+                                        Let us store, pick up, and ship for you! so you
+                                        can focus on your customer and growth.
                                     </h4>
 
 								</div><!--/.about-us-txt-->
@@ -709,7 +709,7 @@
                             <div class="card">
                                 <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne">
                                     <h2 class="clearfix mb-0">
-                                        <a class="btn btn-link"  aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i>How much does the shipment and warehouse services cost at CGX?</a>
+                                        <a class="btnn btn-link"  aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i> How much does the shipment and warehouse services cost at CGX?</a>
                                     </h2>
                                 </div>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -720,7 +720,7 @@
                             <div class="card">
                                 <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo">
                                     <h2 class="mb-0">
-                                        <a class="btn btn-link collapsed"  aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i>How does CGX shipment process works?</a>
+                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> How does CGX shipment process works?</a>
                                     </h2>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -731,7 +731,7 @@
                             <div class="card">
                                 <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree">
                                     <h2 class="mb-0">
-                                        <a class="btn btn-link collapsed"  aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i>What are the types of shipment services that CGX offer?</a>
+                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> What are the types of shipment services that CGX offer?</a>
                                     </h2>
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -742,7 +742,7 @@
                             <div class="card">
                                 <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour">
                                     <h2 class="mb-0">
-                                        <a class="btn btn-link collapsed"  aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i>How does the fulfillment process works?</a>
+                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> How does the fulfillment process works?</a>
                                     </h2>
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
@@ -753,7 +753,7 @@
                             <div class="card">
                                 <div class="card-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive">
                                     <h2 class="mb-0">
-                                        <a class="btn btn-link collapsed"  aria-expanded="false" aria-controls="collapseFive"><i class="fa fa-chevron-circle-down"></i>Does CGX services includes insurance?</a>
+                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseFive"><i class="fa fa-chevron-circle-down"></i> Does CGX services includes insurance?</a>
                                     </h2>
                                 </div>
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
@@ -765,7 +765,7 @@
                     </div>
                 </div>
             </div>
-        </clients>
+        </section>
 
 		<!--packages start-->
 		<section id="pack" class="packages">

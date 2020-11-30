@@ -48,28 +48,30 @@ font-family: 'Poppins', sans-serif;
         0. FAQ Accordion
 --------------------------------------*/
 .faq {
-    padding:30px 0 90px;
+    padding:40px 0 90px;
+    /* display: flex; */
+	position: relative;
 }
-.accordion{
-    padding:30px 30px 0;
-    width: 75%;
+.faq .accordion{
+    padding:30px 0px 0;
+    width: 90%;
     margin: auto;
 }
-.accordion .card {
+.faq .accordion .card {
 	background: none;
 	border: none;
 }
-.accordion .card .card-header {
+.faq .accordion .card .card-header {
 	background: none;
 	border: none;
 	padding: .4rem 1rem;
 	font-family: 'Poppins', sans-serif;
 }
-.accordion .card-header h2 span {
+/* .accordion .card-header h2 span {
 	float: left;
 	margin-top: 10px;
-}
-.accordion .card-header .btn {
+} */
+.faq .accordion .card-header .btnn {
 	color: #2f2f31;
 	font-size: 15px;
 	text-align: left;
@@ -77,14 +79,14 @@ font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	padding-left: 2rem;
 }
-.accordion .card-header i {
+.faq .accordion .card-header i {
 	font-size: 1.2rem;
 	font-weight: bold;
-	position: absolute;
+	position: static;
 	left: 0;
-	top: 9px;
+	/* top: 5px; */
 }
-.accordion .card-header:hover a{
+.faq .accordion .card-header:hover a{
     color: #ff8300;
     text-decoration: none
 }
@@ -92,31 +94,31 @@ font-family: 'Poppins', sans-serif;
     color: #ff8300;
     text-decoration: none
 } */
-.accordion .card-body {
+.faq .accordion .card-body {
 	color: #324353;
 	padding: 0.5rem 3rem;
 }
-.accordion .highlight .btn {
+/* .accordion .highlight .btn {
 	color: #74bd30;
-}
-.accordion .highlight i {
+} */
+/* .accordion .highlight i {
 	transform: rotate(180deg);
-}
+} */
 /* Accordion */
 /* Accordion */
-.accordion>.card{
+/* .faq .accordion>.card{
     overflow:hidden
-}
-.accordion>.card:not(:last-of-type){
+} */
+.faq .accordion>.card:not(:last-of-type){
     border-bottom:0;
     border-bottom-right-radius:0;
     border-bottom-left-radius:0
 }
-.accordion>.card:not(:first-of-type){
+.faq .accordion>.card:not(:first-of-type){
     border-top-left-radius:0;
     border-top-right-radius:0
 }
-.accordion>.card>.card-header{
+.faq .accordion>.card>.card-header{
     border-radius:0;
     margin-bottom:-1px
 }
@@ -267,6 +269,13 @@ html,body{
     /* padding: 10px 0 0 0; asli */
     padding: 10px 0 0 0;
 }
+@media (max-width:500px){
+    .logo img {
+        height: 70%;
+        width: 70%;
+        padding-top: 9px;
+    }
+}
 .logo a span{
     color: #FEBE2F;
     text-transform: capitalize;
@@ -409,23 +418,31 @@ html,body{
 	color:rgb(0, 0, 0);
 	font-size:84px;
 	text-transform: inherit;
-	/* max-width: 800px; */
 	font-weight: 600;
     line-height: 1.22;
     text-align: center;
+}
+@media(max-width:500px){
+    .about-us h2 {
+        padding-bottom: 20px;
+        font-weight: 700;
+    }
+}
+@media (min-width:500px){
+    .about-us h4{
+        width: 50%;
+        margin: auto;
+    }
 }
 .about-us h4 {
 	color:rgb(0, 0, 0);
 	text-transform: inherit;
     text-align: center;
+    font-weight: 700;
 }
-.about-us h2 span{
-	color:#FEBE2F;
-	margin-top: -11px;
-}
+
 .about-btn {
     text-align:right;
-    /* margin:0 auto; */
     margin-top: 39px;
     letter-spacing: 1.2px;
      -webkit-transition: 0.5s ease-in-out;
@@ -549,12 +566,12 @@ html,body{
 	/* padding: 60px 80px 47px 80px; */
 	padding: 40px 5% 30px 5%;
 }
-
-@media (max-width:379px){
+/* 379 */
+@media (max-width:768px){
     .tab-para{
         text-align: center;
         /* padding: 60px 80px 47px 80px; */
-        padding: 40px 10% 30px 10%;
+        padding: 40px 30px 10px 30px;
     }
 }
 .single-tab-select-box h2{
