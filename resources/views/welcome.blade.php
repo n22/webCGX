@@ -92,8 +92,8 @@
 									<ul class="nav navbar-nav navbar-right">
 										<li class="smooth-menu"><a href="#home">Home</a></li>
 										<li class="smooth-menu"><a href="#service">Service</a></li>
-										<li class="smooth-menu"><a href="#spo">FAQ</a></li>
-										<li class="smooth-menu"><a href="#pack">Contact Us </a></li>
+										<li class="smooth-menu"><a href="#faq">FAQ</a></li>
+										<li class="smooth-menu"><a href="#contact-us">Contact Us </a></li>
 										<!-- <li class="smooth-menu"><a href="#blog">blog</a></li>
 										<li class="smooth-menu"><a href="#subs">subscription</a></li> -->
 										<li>
@@ -122,9 +122,10 @@
 							<div class="single-about-us">
 								<div class="about-us-txt">
 									<h2>
-										Solution In Need <br>
+                                        Solution In Need
 									</h2>
-
+                                    <br>
+                                    <br>
                                     <h4>
                                         Let us store, pick up, and ship for you! so you
                                         can focus on your customer and growth.
@@ -149,7 +150,7 @@
 		<section  class="travel-box">
         	<div class="container">
         		<div class="row">
-        			<div class="col-md-12">
+        			<!-- <div class="col-md-12"> -->
         				<div class="single-travel-boxes">
         					<div id="desc-tabs" class="desc-tabs">
 
@@ -168,7 +169,7 @@
 											</div><!--/.row-->
 
 											<div class="row">
-												<div class="col-sm-7">
+												<div class="col-sm-6">
 													<div class="travel-budget">
 														<div class="row">
 
@@ -184,7 +185,7 @@
 														</div><!--/.row-->
 													</div><!--/.travel-budget-->
 												</div><!--/.col-->
-												<div class="clo-sm-5">
+												<div class="clo-sm-6">
 													<div class="about-btn travel-mrt-0">
 														<button  class="about-view travel-btn">
 															Track
@@ -203,7 +204,7 @@
 								</div><!--/.tab content-->
 							</div><!--/.desc-tabs-->
         				</div><!--/.single-travel-box-->
-        			</div><!--/.col-->
+        			<!-- </div>/.col -->
         		</div><!--/.row-->
         	</div><!--/.container-->
 
@@ -282,7 +283,7 @@
 			<div class="container">
 				<div class="special-offer-content">
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-5">
 							<div class="single-special-offer">
 								<div class="single-special-offer-txt">
 									<h2><strong>Save Time & Enjoy Our Benefits!</strong></h2>
@@ -290,7 +291,7 @@
 							</div><!--/.single-special-offer-->
                         </div><!--/.col-->
                         <div class="benefit">
-                            <div class="col-lg-6">
+                            <div class="col-lg-7">
                                 <div class="row">
                                     <div class="benefit-image">
                                         <div class="col-md-2">
@@ -357,7 +358,7 @@
         <!--special-offer end-->
 
 
-        <!--packages start-->
+        <!--clients start-->
 		<section id="clients" class="clients">
 			<div class="container">
 				<div class="gallary-header text-center">
@@ -394,14 +395,14 @@
 
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-transvision.png')}}" alt="Image Description">
                     </div><!-- End Clients -->
-				</div><!--/.packages-content-->
+				</div><!--/.clients-content-->
 			</div><!--/.container-->
 
-		</section><!--/.packages-->
-		<!--packages end-->
+		</section><!--/.clients-->
+		<!--clients end-->
 
 		<!-- testemonial Start -->
-		<section   class="testemonial">
+		<!-- <section   class="testemonial">
 			<div class="container">
 
 				<div class="gallary-header text-center">
@@ -409,7 +410,7 @@
 						<strong>Clients</strong>
 					</h2>
 
-				</div><!--/.gallery-header-->
+				</div>
 
 				<div class="owl-carousel owl-theme" id="testemonial-carousel">
 
@@ -417,7 +418,7 @@
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-airnav.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -431,16 +432,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-					</div><!--/.item-->
+					</div>
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-cut-lane.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -454,16 +455,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-					</div><!--/.item-->
+					</div>
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/geofreight.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -477,16 +478,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-					</div><!--/.item-->
+					</div>
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-big.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -500,16 +501,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-					</div><!--/.item-->
+					</div>
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-everwhite.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -523,16 +524,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-					</div><!--/.item-->
+					</div>
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/pakdeHD2.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -546,16 +547,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-                    </div><!--/.item-->
+                    </div>
 
                     <div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-ojk.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -569,16 +570,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-					</div><!--/.item-->
+					</div>
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-rollerover.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -592,16 +593,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-					</div><!--/.item-->
+					</div>
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-transvision.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -615,16 +616,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-					</div><!--/.item-->
+					</div>
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-fors.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -638,16 +639,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-                    </div><!--/.item-->
+                    </div>
 
                     <div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-wif.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -661,16 +662,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-                    </div><!--/.item-->
+                    </div>
 
                     <div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="{{ secure_asset('TourNest-master/assets/images/client/bw-woobiz.png')}}" alt="img"/>
-							</div><!--/.home1-testm-img-->
+							</div>
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -684,18 +685,18 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
+							</div>
+						</div>
 
-					</div><!--/.item-->
+					</div>
 
-				</div><!--/.testemonial-carousel-->
-			</div><!--/.container-->
+				</div>
+			</div>
 
-		</section><!--/.testimonial-->
+		</section> -->
         <!-- testemonial End -->
 
-        <section class="faq">
+        <section id="faq" class="faq">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -767,424 +768,58 @@
             </div>
         </section>
 
-		<!--packages start-->
-		<section id="pack" class="packages">
-			<div class="container">
-				<div class="gallary-header text-center">
-					<h2>
-						<strong>Clients</strong>
-					</h2>
-				</div><!--/.gallery-header-->
-				<div class="packages-content">
-					<div class="row">
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-package-item">
-								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p1.jpg')}}" alt="package-place">
-								<div class="single-package-item-txt">
-									<h3>italy <span class="pull-right">$499</span></h3>
-									<div class="packages-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
-										 </p>
-									</div><!--/.packages-para-->
-									<div class="packages-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="about-btn">
-										<button  class="about-view packages-btn">
-											book now
-										</button>
-									</div><!--/.about-btn-->
-								</div><!--/.single-package-item-txt-->
-							</div><!--/.single-package-item-->
-
-						</div><!--/.col-->
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-package-item">
-								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p2.jpg')}}" alt="package-place">
-								<div class="single-package-item-txt">
-									<h3>england <span class="pull-right">$1499</span></h3>
-									<div class="packages-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
-										 </p>
-									</div><!--/.packages-para-->
-									<div class="packages-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="about-btn">
-										<button  class="about-view packages-btn">
-											book now
-										</button>
-									</div><!--/.about-btn-->
-								</div><!--/.single-package-item-txt-->
-							</div><!--/.single-package-item-->
-
-						</div><!--/.col-->
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-package-item">
-								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p3.jpg')}}" alt="package-place">
-								<div class="single-package-item-txt">
-									<h3>france <span class="pull-right">$1199</span></h3>
-									<div class="packages-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
-										 </p>
-									</div><!--/.packages-para-->
-									<div class="packages-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="about-btn">
-										<button  class="about-view packages-btn">
-											book now
-										</button>
-									</div><!--/.about-btn-->
-								</div><!--/.single-package-item-txt-->
-							</div><!--/.single-package-item-->
-
-						</div><!--/.col-->
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-package-item">
-								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p4.jpg')}}" alt="package-place">
-								<div class="single-package-item-txt">
-									<h3>india <span class="pull-right">$799</span></h3>
-									<div class="packages-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
-										 </p>
-									</div><!--/.packages-para-->
-									<div class="packages-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="about-btn">
-										<button  class="about-view packages-btn">
-											book now
-										</button>
-									</div><!--/.about-btn-->
-								</div><!--/.single-package-item-txt-->
-							</div><!--/.single-package-item-->
-
-						</div><!--/.col-->
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-package-item">
-								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p5.jpg')}}" alt="package-place">
-								<div class="single-package-item-txt">
-									<h3>spain <span class="pull-right">$999</span></h3>
-									<div class="packages-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
-										 </p>
-									</div><!--/.packages-para-->
-									<div class="packages-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="about-btn">
-										<button  class="about-view packages-btn">
-											book now
-										</button>
-									</div><!--/.about-btn-->
-								</div><!--/.single-package-item-txt-->
-							</div><!--/.single-package-item-->
-
-						</div><!--/.col-->
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-package-item">
-								<img src="{{ secure_asset('TourNest-master/assets/images/packages/p6.jpg')}}" alt="package-place">
-								<div class="single-package-item-txt">
-									<h3>thailand <span class="pull-right">$799</span></h3>
-									<div class="packages-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
-										 </p>
-									</div><!--/.packages-para-->
-									<div class="packages-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="about-btn">
-										<button  class="about-view packages-btn">
-											book now
-										</button>
-									</div><!--/.about-btn-->
-								</div><!--/.single-package-item-txt-->
-							</div><!--/.single-package-item-->
-
-						</div><!--/.col-->
-
-					</div><!--/.row-->
-				</div><!--/.packages-content-->
-			</div><!--/.container-->
-
-		</section><!--/.packages-->
-		<!--packages end-->
-
-
-		<!--discount-offer start-->
-		<section class="discount-offer">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="dicount-offer-content text-center">
-							<h2>Join with us within 21 January, 2018 and get upto 40% Discount</h2>
-							<div class="campaign-timer">
-								<div id="timer">
-									<div class="time time-after" id="days">
-										<span></span>
-									</div><!--/.time-->
-									<div class="time time-after" id="hours">
-
-									</div><!--/.time-->
-									<div class="time time-after" id="minutes">
-
-									</div><!--/.time-->
-									<div class="time" id="seconds">
-
-									</div><!--/.time-->
-								</div><!--/.timer-->
-							</div><!--/.campaign-timer-->
-							<div class="about-btn">
-								<button  class="about-view discount-offer-btn">
-									join now
-								</button>
-							</div><!--/.about-btn-->
-
-
-						</div><!-- /.dicount-offer-content-->
-					</div><!-- /.col-->
-				</div><!-- /.row-->
-			</div><!-- /.container-->
-
-		</section><!-- /.discount-offer-->
-		<!--discount-offer end-->
-
-
-
-
-		<!--blog start-->
-		<section id="blog" class="blog">
-			<div class="container">
-				<div class="blog-details">
-						<div class="gallary-header text-center">
-							<h2>
-								latest news
-							</h2>
-							<p>
-								Travel News from all over the world
-							</p>
-						</div><!--/.gallery-header-->
-						<div class="blog-content">
-							<div class="row">
-
-								<div class="col-sm-4 col-md-4">
-									<div class="thumbnail">
-										<h2>trending news <span>15 november 2017</span></h2>
-										<div class="thumbnail-img">
-											<img src="{{ secure_asset('TourNest-master/assets/images/blog/b1.jpg')}}" alt="blog-img">
-											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-										</div><!--/.thumbnail-img-->
-
-										<div class="caption">
-											<div class="blog-txt">
-												<h3>
-													<a href="#">
-														Discover on beautiful weather, Fantastic foods and historical place in Prag
-													</a>
-												</h3>
-												<p>
-													Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam
-												</p>
-												<a href="#">Read More</a>
-											</div><!--/.blog-txt-->
-										</div><!--/.caption-->
-									</div><!--/.thumbnail-->
-
-								</div><!--/.col-->
-
-								<div class="col-sm-4 col-md-4">
-									<div class="thumbnail">
-										<h2>trending news <span>15 november 2017</span></h2>
-										<div class="thumbnail-img">
-											<img src="{{ secure_asset('TourNest-master/assets/images/blog/b2.jpg')}}" alt="blog-img">
-											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-										</div><!--/.thumbnail-img-->
-										<div class="caption">
-											<div class="blog-txt">
-												<h3>
-													<a href="#">
-														Discover on beautiful weather, Fantastic foods and historical place in india
-													</a>
-												</h3>
-												<p>
-													Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam
-												</p>
-												<a href="#">Read More</a>
-											</div><!--/.blog-txt-->
-										</div><!--/.caption-->
-									</div><!--/.thumbnail-->
-
-								</div><!--/.col-->
-
-								<div class="col-sm-4 col-md-4">
-									<div class="thumbnail">
-										<h2>trending news <span>15 november 2017</span></h2>
-										<div class="thumbnail-img">
-											<img src="{{ secure_asset('TourNest-master/assets/images/blog/b3.jpg')}}" alt="blog-img">
-											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-										</div><!--/.thumbnail-img-->
-										<div class="caption">
-											<div class="blog-txt">
-												<h3><a href="#">10 Most Natural place to Discover</a></h3>
-												<p>
-													Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam
-												</p>
-												<a href="#">Read More</a>
-											</div><!--/.blog-txt-->
-										</div><!--/.caption-->
-									</div><!--/.thumbnail-->
-
-								</div><!--/.col-->
-
-							</div><!--/.row-->
-						</div><!--/.blog-content-->
-					</div><!--/.blog-details-->
-				</div><!--/.container-->
-
-		</section><!--/.blog-->
-		<!--blog end-->
-
-
-		<!--subscribe start-->
-		<section id="subs" class="subscribe">
-			<div class="container">
-				<div class="subscribe-title text-center">
-					<h2>
-						Join our Subscribers List to Get Regular Update
-					</h2>
-					<p>
-						Subscribe Now. We will send you Best offer for your Trip
-					</p>
-				</div>
-				<form>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-							<div class="custom-input-group">
-								<input type="email" class="form-control" placeholder="Enter your Email Here">
-								<button class="appsLand-btn subscribe-btn">Subscribe</button>
-								<div class="clearfix"></div>
-								<i class="fa fa-envelope"></i>
-							</div>
-
-						</div>
-					</div>
-				</form>
-			</div>
-
-		</section>
-		<!--subscribe end-->
+        <section id="contact-us" class="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="gallary-header text-center">
+                            <h5>
+                                CONTACT US
+                            </h5>
+                            <br>
+                            <h2>
+                                <strong>Let's Grow Together!</strong>
+                            </h2>
+                        </div>
+                        <div class="contact-us-content">
+                            <form>
+                                <div class="form-group">
+                                    <div class="form-row">
+                                        <div class="form-contact-us">
+                                            <div class="col-md-6">
+                                                <input class="form-control" placeholder="Name" >
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input class="form-control" placeholder="Email" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-contact-us">
+                                            <div class="col-md-6">
+                                                <input class="form-control" placeholder="Company" >
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input class="form-control" placeholder="Phone Number" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-contact-us-textarea">
+                                            <textarea  rows="4" cols="50" class="form-control" placeholder="How can we help you? Tell us about project description"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="btn-contact-us">
+                                        <button type="submit" class="btn">Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 		<!-- footer-copyright start -->
 		<footer  class="footer-copyright">
