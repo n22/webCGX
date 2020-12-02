@@ -63,7 +63,8 @@ font-family: 'Poppins', sans-serif;
 
 .contact-us .contact-us-content .form-contact-us input{
     height: 50px;
-    border-color: #FEBE2F;
+    /* border-color: #FEBE2F; */
+    border: 2px solid #FEBE2F;
 }
 
 .contact-us .contact-us-content .form-contact-us-textarea {
@@ -71,7 +72,8 @@ font-family: 'Poppins', sans-serif;
 }
 .contact-us .contact-us-content .form-contact-us-textarea textarea{
     height: 200px;
-    border-color: #FEBE2F;
+    /* border-color: #FEBE2F; */
+    border: 2px solid #FEBE2F;
 }
 .contact-us .contact-us-content .btn-contact-us{
     padding: 30px 15px 0;
@@ -80,9 +82,20 @@ font-family: 'Poppins', sans-serif;
     background-color: #FEBE2F;
     color: black;
     text-align: center;
+    height: 45px;
     width: 100%;
+    font-weight: 600;
+    border: 2px solid black;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
-
+.contact-us .contact-us-content button:hover{
+    font-size: 16px;
+    box-shadow: 0 5px 30px rgba(14,15,18,.7);
+}
 /*-------------------------------------
         0. FAQ Accordion
 --------------------------------------*/
@@ -125,7 +138,8 @@ font-family: 'Poppins', sans-serif;
 	/* top: 5px; */
 }
 .faq .accordion .card-header:hover a{
-    color: #ff8300;
+    /* color: #ff8300; */
+    font-weight: 600;
     text-decoration: none
 }
 /* .accordion .card-header .btn:hover {
@@ -262,7 +276,9 @@ html,body{
 .header-area{
     position:relative;
     width: 100%;
-    background-image: linear-gradient(to right, #FEBE2F 0%, rgba(0,0,0,0) 50%);
+    /* background-image: linear-gradient(to right, #FEBE2F 0%, rgba(0,0,0,0) 50%); */
+    /* background: #FEBE2F; */
+    background-color: rgba(254, 190, 47, 0.6);
 }
 
 /*.sticky-wrapper */
@@ -276,6 +292,7 @@ html,body{
     position:absolute;
     content:'';
     background: #FEBE2F;
+    /* background-color: rgba(254, 190, 47, 0.1); */
     height:100%;
     width:100%;
     top:0;
@@ -360,6 +377,7 @@ html,body{
     width: 0px;
     height: 2px;
     bottom: -2.4px;
+    /* bottom: 18px; */
     left: 0;
     background: transparent;
     -webkit-transition: .3s ease-in-out;
@@ -369,11 +387,12 @@ html,body{
     transition: .3s ease-in-out;
 
 }
-/* .main-menu .nav li.active  a:before,
+
+.main-menu .nav li.active  a:before,
 .main-menu .nav a:hover:before{
     background: black;
     width: 100%;
-} */
+}
 
 /*.main-menu*/
 
@@ -394,7 +413,8 @@ html,body{
 
 
 /* .home-border{
-    border-top:2px solid #fff;
+    border-top:2px solid black;
+    width: 100%;
 } */
 
 /*book-btn*/
@@ -421,8 +441,9 @@ html,body{
     transition: 0.5s ease-in-out;
 }
 .book-btn:hover{
-    color: #FEBE2F;
-    background: #fff;
+    color: black;
+    font-size: 15px;
+    box-shadow: 0 5px 30px rgba(14,15,18,.2);
     border: 2px solid black;
 }/*book-btn*/
 
@@ -443,6 +464,26 @@ html,body{
     /* height: auto; */
     z-index: -3;
 }
+@media (max-width: 500px){
+    .about-us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background: url(../../assets/images/home/banner-cgx-asli.jpg);
+        background-size: cover;
+        background-position: center;
+        /* background-size: auto; */
+        background-repeat: no-repeat;
+        /* min-height: auto; */
+        /* max-width: auto; */
+        width: 100%;
+        height: 400px;
+        z-index: -3;
+    }
+}
+
+
 .about-us:before{
 	position: absolute;
 	content: "";
@@ -455,20 +496,29 @@ html,body{
 
 /*about-us-content*/
 .about-us-content{
-	margin: -150px 0 0 0;
+    /* margin: auto; */
+    text-align: center;
 }
 .about-us h2 {
-	color:rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    background-color: #F7942E;
 	font-size:84px;
 	text-transform: inherit;
 	font-weight: 600;
     line-height: 1.22;
-    text-align: center;
+    /* text-align: center; */
+    display: inline;
 }
 @media(max-width:500px){
     .about-us h2 {
-        padding-bottom: 20px;
         font-weight: 700;
+    }
+    .about-us h4 {
+        /* margin-top: -30px; */
+        font-weight: 600 !important;
+        font-size: small;
+        width: 75%;
+        margin: -30px auto auto;
     }
 }
 @media (min-width:500px){
@@ -482,6 +532,7 @@ html,body{
 	text-transform: inherit;
     text-align: center;
     font-weight: 700;
+    padding-top: 30px;
 }
 
 .about-btn {
@@ -504,14 +555,15 @@ html,body{
     justify-content: center;
     align-items: center;
     background: #FEBE2F;
-    border: 1px solid #FEBE2F;
+    border: 2px solid black;
     width: 200px;
     height: 60px;
     white-space: nowrap;
-    color: #fff;
-    font-size:16px;
+    color: black;
+    font-size:18px;
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     border-radius: 5px;
     box-shadow: 0 5px 20px rgba(14,15,18,.2);
     -webkit-transition: 0.5s ease-in-out;
@@ -522,11 +574,10 @@ html,body{
 }
 .about-btn:hover .about-view{
     color: black;
-    font-weight: 500;
-    font-size: 16px;
+    font-size: 19px;
     background: #FEBE2F;
-    box-shadow: 0 5px 20px rgba(14,15,18,.7);
-	border: 1px solid #FEBE2F;
+    box-shadow: 0 5px 30px rgba(14,15,18,.7);
+    border: 2px solid black;
 }
 .travel-mrt-0{
     margin-top: 0px;
@@ -543,7 +594,7 @@ html,body{
     /* float: center; */
     margin: auto;
 }
-@media (max-width:768px){
+@media (max-width:767px){
     .single-travel-boxes .col-md-12{
         padding: 0px !important;
     }
@@ -1006,7 +1057,7 @@ html,body{
 .special-offer{
     position: relative;
     background-size: cover;
-    /* height: 600px; */
+    /* height: 650px; */
     height: auto;
     padding-bottom: 40px;
     /* max-height: 600px; */

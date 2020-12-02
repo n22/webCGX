@@ -105,10 +105,10 @@
 							</div><!-- /.main-menu-->
 						</div><!-- /.col-->
 					</div><!-- /.row -->
-					<div class="home-border"></div><!-- /.home-border-->
+
 				</div><!-- /.container-->
 			</div><!-- /.header-area -->
-
+            <div class="home-border"></div><!-- /.home-border-->
 		</header><!-- /.top-area-->
 		<!-- main-menu End -->
 
@@ -122,7 +122,7 @@
 							<div class="single-about-us">
 								<div class="about-us-txt">
 									<h2>
-                                        Solution In Need
+                                        &nbsp;Solution In Need&nbsp;
 									</h2>
                                     <br>
                                     <br>
@@ -292,7 +292,7 @@
                         </div><!--/.col-->
                         <div class="benefit">
                             <div class="col-lg-7">
-                                <div class="row">
+                                <div class="row" style="padding-bottom:10px;">
                                     <div class="benefit-image">
                                         <div class="col-md-2">
                                             <img src="{{ secure_asset('TourNest-master/assets/images/benefit/scallable-1.png')}}" alt="benefit-icon" />
@@ -307,7 +307,7 @@
 
                                 </div>
 
-                                <div class="row">
+                                <div class="row" style="padding-bottom:10px;">
                                     <div class="benefit-image">
                                         <div class="col-md-2">
                                             <img src="{{ secure_asset('TourNest-master/assets/images/benefit/analitik-1.png')}}" alt="benefit-icon" />
@@ -321,7 +321,7 @@
                                     </div>
                                 </div>
 
-                                <div class="row">
+                                <div class="row" style="padding-bottom:10px;">
                                     <div class="benefit-image">
                                         <div class="col-md-2">
                                             <img src="{{ secure_asset('TourNest-master/assets/images/benefit/accurate-1.png')}}" alt="benefit-icon" />
@@ -335,7 +335,7 @@
                                     </div>
                                 </div>
 
-                                <div class="row">
+                                <div class="row" style="padding-bottom:10px;">
                                     <div class="benefit-image">
                                         <div class="col-md-2">
                                             <img src="{{ secure_asset('TourNest-master/assets/images/benefit/secured-1.png')}}" alt="benefit-icon" />
