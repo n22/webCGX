@@ -827,55 +827,49 @@
 				<div class="footer-content">
 					<div class="row">
 
-						<div class="col-sm-3">
+						<div class="col-sm-2">
 							<div class="single-footer-item">
 								<div class="footer-logo">
 									<a href="index.html">
-										tour<span>Nest</span>
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/home/cgxlogo.png')}}"/>
 									</a>
-									<p>
-										best travel agency
-									</p>
 								</div>
 							</div><!--/.single-footer-item-->
 						</div><!--/.col-->
 
-						<div class="col-sm-3">
+						<div class="col-sm-2">
 							<div class="single-footer-item">
-								<h2>link</h2>
-								<div class="single-footer-txt">
-									<p><a href="#">home</a></p>
-									<p><a href="#">destination</a></p>
-									<p><a href="#">spacial packages</a></p>
-									<p><a href="#">special offers</a></p>
-									<p><a href="#">blog</a></p>
-									<p><a href="#">contacts</a></p>
-								</div><!--/.single-footer-txt-->
+                                <h2><strong>Company</strong></h2>
+                                <br>
+								<h2>About</h2>
+                                <br>
+								<h2>Contact Us</h2>
+                                <br>
+								<h2>FAQ</h2>
 							</div><!--/.single-footer-item-->
 
 						</div><!--/.col-->
 
-						<div class="col-sm-3">
+						<div class="col-sm-4">
 							<div class="single-footer-item">
-								<h2>popular destination</h2>
 								<div class="single-footer-txt">
-									<p><a href="#">china</a></p>
-									<p><a href="#">venezuela</a></p>
-									<p><a href="#">brazil</a></p>
-									<p><a href="#">australia</a></p>
-									<p><a href="#">london</a></p>
+                                    <p>Office:</p>
+									<p>Jalan Raya Pondok Gede No. 1 8R,</p>
+									<p>Jakarta Timur, Indonesia I 3810</p>
+                                    <br>
+                                    <p>Werehouse :</p>
+                                    <p>Jalan Wibawa Mukti No.90,</p>
+                                    <p>Jati Asih, Bekasi, Indonesia</p>
 								</div><!--/.single-footer-txt-->
 							</div><!--/.single-footer-item-->
 						</div><!--/.col-->
 
-						<div class="col-sm-3">
+						<div class="col-sm-4">
 							<div class="single-footer-item text-center">
-								<h2 class="text-left">contacts</h2>
 								<div class="single-footer-txt text-left">
-									<p>+1 (300) 1234 6543</p>
-									<p class="foot-email"><a href="#">info@tnest.com</a></p>
-									<p>North Warnner Park 336/A</p>
-									<p>Newyork, USA</p>
+									<p>Phone:</p>
+									<p>Phone: 021 8243 5678</p>
+									<p>Mobile: +62 813-8595-4267</p>
 								</div><!--/.single-footer-txt-->
 							</div><!--/.single-footer-item-->
 						</div><!--/.col-->
@@ -885,12 +879,14 @@
 				</div><!--/.footer-content-->
 				<hr>
 				<div class="foot-icons ">
-					<ul class="footer-social-links list-inline list-unstyled">
-		                <li><a href="#" target="_blank" class="foot-icon-bg-1"><i class="fa fa-facebook"></i></a></li>
-		                <li><a href="#" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
-		                <li><a href="#" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
-		        	</ul>
-		        	<p>&copy; 2017 <a href="https://www.themesine.com">ThemeSINE</a>. All Right Reserved</p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>&copy; 2019 CGXLOGISTICS</p>
+                        </div>
+                        <div class="col-sm-6 img-footer">
+                            <img src="{{ secure_asset('TourNest-master/assets/images/home/social.png')}}"/>
+                        </div>
+                    </div>
 
 		        </div><!--/.foot-icons-->
 				<div id="scroll-Top">
