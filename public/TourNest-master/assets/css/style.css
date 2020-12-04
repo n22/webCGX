@@ -147,7 +147,7 @@ html,body{
     width: 100%;
     /* background-image: linear-gradient(to right, #FEBE2F 0%, rgba(0,0,0,0) 50%); */
     /* background: #FEBE2F; */
-    background-color: rgba(254, 190, 47, 0.6);
+    background-color: rgba(254, 190, 47, 0.7);
 }
 
 /*.sticky-wrapper */
@@ -410,7 +410,7 @@ html,body{
 	text-transform: inherit;
     text-align: center;
     font-weight: 450;
-    padding-top: 30px;
+    padding-top: 1rem;
     letter-spacing: 1.5px;
     line-height:26px;
 }
@@ -660,7 +660,7 @@ html,body{
 }
 .service {
     position: relative;
-    padding: 60px 0 54px;
+    padding: 60px 0 100px;
 }
 .service-header h2{
     position:relative;
