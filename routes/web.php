@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('/tracking', function () {
     return view('tracking');
 });
+
+Route::get('captcha-form', 'CaptchaController@captchForm');
+Route::post('store-captcha-form', 'CaptchaController@storeCaptchaForm');

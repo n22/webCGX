@@ -57,14 +57,48 @@ body{
 
 }
 
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
 
 a,a:hover,a:active,a:focus {
 
 	display:inline-block;
 	text-decoration:none;
 	font-size:13px;
-	padding:0;
+	/* padding:0; */
     margin:0;
 
 }
@@ -309,6 +343,7 @@ html,body{
     -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
 }
+
 .book-btn:hover{
     color: black;
     font-size: 15px;
@@ -654,10 +689,7 @@ html,body{
 /*-------------------------------------
         5. Service
 --------------------------------------*/
-.track-shipment{
-    position: relative;
-    padding: 130px 0 54px;
-}
+
 .service {
     position: relative;
     padding: 60px 0 100px;
@@ -714,7 +746,7 @@ html,body{
     font-weight: 500;
 }
 .service-content p{
-    color:grey;
+    color:black;
     font-size:14px;
     text-transform:inherit;
     font-family: 'Poppins', sans-serif;
@@ -1179,14 +1211,26 @@ html,body{
         padding: 10px 15px 0px;
     }
 }
-
+/*-------------------------------------
+        Tracking Blade
+--------------------------------------*/
+.track-shipment{
+    position: relative;
+    padding: 130px 0 54px;
+}
 .track-shipment .track-shipment-content .track-shipment-textarea{
-    padding: 0 20px 0;
+    padding: 0 20px 30px;
 }
 .track-shipment .track-shipment-content .track-shipment-textarea textarea{
     height: 200px;
     /* border-color: #FEBE2F; */
     border: 2px solid #FEBE2F;
+}
+.track-shipment .track-shipment-content .track-shipment-captcha{
+    padding: 0 20px 0px;
+}
+.track-shipment .track-shipment-content .track-shipment-captcha p{
+    padding: 0 0px 10px;
 }
 .track-shipment .track-shipment-content .btn-track-shipment{
     padding: 30px 20px 0;
@@ -1209,6 +1253,106 @@ html,body{
     font-size: 16px;
     box-shadow: 0 5px 30px rgba(14,15,18,.7);
 }
+
+/*-------------------------------------
+        Track Result
+--------------------------------------*/
+
+.track-result {
+    position: relative;
+    padding: 60px 0 100px;
+}
+.track-result-header h2{
+    position:relative;
+    color: black;
+    font-size:30px;
+    font-weight:500;
+    margin-bottom: 50px;
+    text-transform:capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom:14px;
+}
+/* single-ststistics-box */
+.single-track-result-box {
+    display: block;
+    margin-bottom: 30px;
+    /* max-height: 400px; */
+    /* min-height: 300px; */
+    -webkit-transition: .5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    transition: .5s;
+    box-shadow: 0 30px 20px rgba(0,0,0,.2);
+}
+.single-track-result-box:hover{
+    /* box-shadow: 0 0 20px rgba(0,0,0,.2); */
+    /* box-shadow: 0px 10px 10px 0px grey; */
+}
+
+/* single-ststistics-box */
+.track-result-content {
+    padding:0 50px 0px;
+    position: relative;
+}
+.track-result-content {
+    text-align: center;
+}
+.track-result-content h2 a{
+    color:black;
+    font-size:16px;
+    text-transform:capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.track-result-content p{
+    color:black;
+    font-size:14px;
+    text-transform:inherit;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 17px;
+}
+
+.track-result-content .track-result-title{
+    text-align: left;
+    padding: 50px 0 0;
+}
+.track-result-content .track-result-title h2{
+    position:relative;
+    color: black;
+    font-size:20px;
+    font-weight:400;
+    margin-bottom: 0px;
+    text-transform:capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom:10px;
+}
+.track-result-content .track-result-text{
+    text-align: left;
+}
+.track-result-content .track-result-text p{
+    position:relative;
+    color: black;
+    font-size:15px;
+    font-weight:300;
+    margin-bottom: 0px;
+    text-transform:capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom:14px;
+}
+.track-result-content .track-result-detail{
+    position: relative;
+    padding-top: 8em;
+}
+/* .parent {  } */
+
+.child {
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform    : translate(-50%, -50%);
+}
 /*-------------------------------------
         13.  Footer-copyright
 --------------------------------------*/
@@ -1217,7 +1361,7 @@ html,body{
     padding: 0 0 10px;
 }
 .footer-content{
-    padding:30px 0;
+    padding:30px 0 0;
 }
 
 /*single-footer-item*/

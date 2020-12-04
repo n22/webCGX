@@ -6,6 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 		<!--font-family-->
@@ -127,10 +128,19 @@
 
 					<div class="track-shipment-content">
                         <form>
+                            {{ csrf_field() }}
                             <div class="form-group">
                                 <div class="form-row">
                                     <div class="track-shipment-textarea">
                                         <textarea class="form-control" placeholder="You can track up to 10 Airwaybill Number (separated by commas, spaces, or newlines)"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="track-shipment-captcha">
+                                        <p for="captcha">Please check the box below to proceed.</p>
+                                        {!! NoCaptcha::renderJs() !!}
+                                        {!! NoCaptcha::display() !!}
+                                        <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
                                     </div>
                                 </div>
                                 <div class="btn-track-shipment">
@@ -146,6 +156,73 @@
 
 		</section><!--/.track-shipment-->
         <!--track-shipment end-->
+
+        <!--track-result start-->
+		<section id="track-result" class="track-result">
+			<div class="container">
+
+				<div class="track-result-counter text-center">
+                    <div class="track-result-header text-center">
+						<h2>
+							<strong>Your Track Information</strong>
+						</h2>
+
+					</div><!--/.gallery-header-->
+
+					<div class="col-md-12 col-sm-12">
+						<div class="single-track-result-box">
+							<div class="track-result-content">
+                                <div class="row">
+                                    <div class="col-md-5ths">
+                                        <div class="track-result-title">
+                                            <h2>Airwaybill Number</h2>
+                                        </div>
+                                        <div class="track-result-text">
+                                            <p>12345678bj</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5ths">
+                                        <div class="track-result-title">
+                                            <h2>Date of Delivery</h2>
+                                        </div>
+                                        <div class="track-result-text">
+                                            <p>02-07-2020, 16:06</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5ths">
+                                        <div class="track-result-title">
+                                            <h2>Recipient</h2>
+                                        </div>
+                                        <div class="track-result-text">
+                                            <p>Jane Yarwood Cohive Plaza 89 Kav.X7, Jl. H. R. Rasuna Said No. 6, RT.6/RW.7 16868</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5ths">
+                                        <div class="track-result-title">
+                                            <h2>Sender</h2>
+                                        </div>
+                                        <div class="track-result-text">
+                                            <p>Olivia Yarwood Dusun II Desa Serapuh ABC, Padang Tualang, Langkat,  Sumatra Utara 20852</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5ths">
+                                        <div class="track-result-detail">
+                                            <!-- <div class="parent" style="background:lightyellow; padding:6em"> -->
+                                                <a class="btn book-btn " href="#">Detail</a>
+                                                <!-- <div class="child" style="background:gold; padding:1em">&mdash;</div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div><!--/.track-result-content-->
+						</div><!--/.single-track-result-box-->
+					</div><!--/.col-->
+
+				</div><!--/.statistics-counter-->
+			</div><!--/.container-->
+
+		</section><!--/.track-result-->
+        <!--track-result end-->
 
 		<!-- footer-copyright start -->
 		<footer  class="footer-copyright">
@@ -166,11 +243,11 @@
 						<div class="col-sm-2">
 							<div class="single-footer-item">
                                 <h2><strong>Company</strong></h2>
-                                <br>
+
 								<h2>About</h2>
-                                <br>
+
 								<h2>Contact Us</h2>
-                                <br>
+
 								<h2>FAQ</h2>
 							</div><!--/.single-footer-item-->
 

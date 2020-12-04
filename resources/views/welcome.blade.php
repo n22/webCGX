@@ -6,6 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 		<!--font-family-->
@@ -284,7 +285,7 @@
 						<div class="col-lg-5">
 							<div class="single-special-offer">
 								<div class="single-special-offer-txt">
-									<h2><strong>Save Time & Enjoy Our Benefits!</strong></h2>
+									<h2><strong>Save Time & <br>Enjoy Our Benefits!</strong></h2>
 								</div><!--/.single-special-offer-txt-->
 							</div><!--/.single-special-offer-->
                         </div><!--/.col-->
@@ -846,11 +847,11 @@
 						<div class="col-sm-2">
 							<div class="single-footer-item">
                                 <h2><strong>Company</strong></h2>
-                                <br>
+
 								<h2>About</h2>
-                                <br>
+
 								<h2>Contact Us</h2>
-                                <br>
+
 								<h2>FAQ</h2>
 							</div><!--/.single-footer-item-->
 
