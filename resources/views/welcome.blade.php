@@ -73,7 +73,7 @@
 					<div class="row">
 						<div class="col-sm-2">
 							<div class="logo">
-								<a href="index.html">
+								<a href="{{ url('/')}}">
                                 <img src="{{ secure_asset('TourNest-master/assets/images/home/cgxlogo.png')}}"/>
 									<!-- C<span>GX</span> -->
 								</a>
@@ -94,11 +94,9 @@
 										<li class="smooth-menu"><a href="#service">Service</a></li>
 										<li class="smooth-menu"><a href="#faq">FAQ</a></li>
 										<li class="smooth-menu"><a href="#contact-us">Contact Us </a></li>
-										<!-- <li class="smooth-menu"><a href="#blog">blog</a></li>
-										<li class="smooth-menu"><a href="#subs">subscription</a></li> -->
 										<li>
-											<button class="book-btn">Tracking
-											</button>
+											<a style="padding-top:9px;" class="book-btn btn" href="{{ url('/tracking')}}">Tracking
+											</a>
 										</li><!--/.project-btn-->
 									</ul>
 								</div><!-- /.navbar-collapse -->

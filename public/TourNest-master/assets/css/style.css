@@ -173,7 +173,7 @@ html,body{
     -o-transition:all 0.5s linear;
     transition: all 0.5s linear;
 }
-.sticky-wrapper.is-sticky .main-menu .nav a:before{
+.sticky-wrapper.is-sticky .main-menu .nav a:not(.book-btn):before{
     bottom: 17.6px;
 }/*.sticky-wrapper */
 
@@ -314,6 +314,7 @@ html,body{
     font-size: 15px;
     box-shadow: 0 5px 30px rgba(14,15,18,.2);
     border: 2px solid black;
+    background-color: #FEBE2F !important;
 }/*book-btn*/
 
 /*-------------------------------------
@@ -369,15 +370,21 @@ html,body{
     text-align: center;
     padding: 100px 0 0;
 }
+@media(max-width:500px){
+    .about-us-content{
+        padding: 0px;
+    }
+}
 .about-us h2 {
     color:rgb(0, 0, 0);
     background-color: #F7942E;
 	font-size:64px;
 	text-transform: inherit;
-	font-weight: 600;
+	font-weight: 450;
     line-height: 1.22;
     /* text-align: center; */
     display: inline;
+    letter-spacing: 2.5px;
 }
 @media(max-width:500px){
     .about-us h2 {
@@ -385,13 +392,14 @@ html,body{
     }
     .about-us h4 {
         /* margin-top: -30px; */
-        font-weight: 600 !important;
+        font-weight: 400 !important;
         font-size: small;
         width: 75%;
         margin: -30px auto auto;
+        padding-top: 1rem;
     }
 }
-@media (min-width:500px){
+@media (min-width:768px){
     .about-us h4{
         width: 50%;
         margin: auto;
@@ -404,6 +412,7 @@ html,body{
     font-weight: 450;
     padding-top: 30px;
     letter-spacing: 1.5px;
+    line-height:26px;
 }
 
 .about-btn {

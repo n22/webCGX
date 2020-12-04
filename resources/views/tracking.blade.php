@@ -73,7 +73,7 @@
 					<div class="row">
 						<div class="col-sm-2">
 							<div class="logo">
-								<a href="index.html">
+								<a href="{{ url('/')}}">
                                 <img src="{{ secure_asset('TourNest-master/assets/images/home/cgxlogo.png')}}"/>
 									<!-- C<span>GX</span> -->
 								</a>
