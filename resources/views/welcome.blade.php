@@ -787,20 +787,28 @@
                                     <div class="form-row">
                                         <div class="form-contact-us">
                                             <div class="col-md-6">
-                                                <input class="form-control" placeholder="Name" >
+                                                <div class="responsive-contact-us">
+                                                    <input class="form-control" placeholder="Name" >
+                                                </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <input class="form-control" placeholder="Email" >
+                                                <div class="responsive-contact-us">
+                                                    <input class="form-control" placeholder="Email" >
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-row">
                                         <div class="form-contact-us">
                                             <div class="col-md-6">
-                                                <input class="form-control" placeholder="Company" >
+                                                <div class="responsive-contact-us">
+                                                    <input class="form-control" placeholder="Company" >
+                                                </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <input class="form-control" placeholder="Phone Number" >
+                                                <div class="responsive-contact-us">
+                                                    <input class="form-control" placeholder="Phone Number" >
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -878,7 +886,7 @@
 
 				</div><!--/.footer-content-->
 				<hr>
-				<div class="foot-icons ">
+				<div class="foot-icons">
                     <div class="row">
                         <div class="col-sm-6">
                             <p>&copy; 2019 CGXLOGISTICS</p>

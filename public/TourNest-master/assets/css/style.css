@@ -44,137 +44,6 @@ font-family: 'Poppins', sans-serif;
 	box-sizing:border-box;
 
 }
-/*-------------------------------------
-        -1. Contact Us
---------------------------------------*/
-.contact-us{
-    padding:40px 0 90px;
-    position: relative;
-}
-.contact-us .contact-us-content{
-    padding:30px 0px 0;
-    width: 75%;
-    margin: auto;
-    text-align: center;
-}
-.contact-us .contact-us-content .form-contact-us{
-    padding:30px 0px 50px;
-}
-
-.contact-us .contact-us-content .form-contact-us input{
-    height: 50px;
-    /* border-color: #FEBE2F; */
-    border: 2px solid #FEBE2F;
-}
-
-.contact-us .contact-us-content .form-contact-us-textarea {
-    padding: 30px 15px 0;
-}
-.contact-us .contact-us-content .form-contact-us-textarea textarea{
-    height: 200px;
-    /* border-color: #FEBE2F; */
-    border: 2px solid #FEBE2F;
-}
-.contact-us .contact-us-content .btn-contact-us{
-    padding: 30px 15px 0;
-}
-.contact-us .contact-us-content button{
-    background-color: #FEBE2F;
-    color: black;
-    text-align: center;
-    height: 45px;
-    width: 100%;
-    font-weight: 600;
-    border: 2px solid black;
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -ms-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
-}
-.contact-us .contact-us-content button:hover{
-    font-size: 16px;
-    box-shadow: 0 5px 30px rgba(14,15,18,.7);
-}
-/*-------------------------------------
-        0. FAQ Accordion
---------------------------------------*/
-.faq {
-    padding:40px 0 90px;
-	position: relative;
-}
-.faq .accordion{
-    padding:30px 0px 0;
-    width: 90%;
-    margin: auto;
-}
-.faq .accordion .card {
-	background: none;
-	border: none;
-}
-.faq .accordion .card .card-header {
-	background: none;
-	border: none;
-	padding: .4rem 1rem;
-	font-family: 'Poppins', sans-serif;
-}
-/* .accordion .card-header h2 span {
-	float: left;
-	margin-top: 10px;
-} */
-.faq .accordion .card-header .btnn {
-	color: #2f2f31;
-	font-size: 15px;
-	text-align: left;
-	position: relative;
-	font-weight: 500;
-	padding-left: 2rem;
-}
-.faq .accordion .card-header i {
-	font-size: 1.2rem;
-	font-weight: bold;
-	position: static;
-	left: 0;
-	/* top: 5px; */
-}
-.faq .accordion .card-header:hover a{
-    /* color: #ff8300; */
-    font-weight: 600;
-    text-decoration: none
-}
-/* .accordion .card-header .btn:hover {
-    color: #ff8300;
-    text-decoration: none
-} */
-.faq .accordion .card-body {
-	color: #324353;
-	padding: 0.5rem 3rem;
-}
-/* .accordion .highlight .btn {
-	color: #74bd30;
-} */
-/* .accordion .highlight i {
-	transform: rotate(180deg);
-} */
-/* Accordion */
-/* Accordion */
-/* .faq .accordion>.card{
-    overflow:hidden
-} */
-.faq .accordion>.card:not(:last-of-type){
-    border-bottom:0;
-    border-bottom-right-radius:0;
-    border-bottom-left-radius:0
-}
-.faq .accordion>.card:not(:first-of-type){
-    border-top-left-radius:0;
-    border-top-right-radius:0
-}
-.faq .accordion>.card>.card-header{
-    border-radius:0;
-    margin-bottom:-1px
-}
-/* Accordion */
 
 body{
     position: relative;
@@ -460,7 +329,7 @@ html,body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 600px;
     /* height: auto; */
     z-index: -3;
 }
@@ -498,11 +367,12 @@ html,body{
 .about-us-content{
     /* margin: auto; */
     text-align: center;
+    padding: 100px 0 0;
 }
 .about-us h2 {
     color:rgb(0, 0, 0);
     background-color: #F7942E;
-	font-size:84px;
+	font-size:64px;
 	text-transform: inherit;
 	font-weight: 600;
     line-height: 1.22;
@@ -511,7 +381,7 @@ html,body{
 }
 @media(max-width:500px){
     .about-us h2 {
-        font-weight: 700;
+        font-weight: 450;
     }
     .about-us h4 {
         /* margin-top: -30px; */
@@ -531,8 +401,9 @@ html,body{
 	color:rgb(0, 0, 0);
 	text-transform: inherit;
     text-align: center;
-    font-weight: 700;
+    font-weight: 450;
     padding-top: 30px;
+    letter-spacing: 1.5px;
 }
 
 .about-btn {
@@ -774,6 +645,10 @@ html,body{
 /*-------------------------------------
         5. Service
 --------------------------------------*/
+.track-shipment{
+    position: relative;
+    padding: 130px 0 54px;
+}
 .service {
     position: relative;
     padding: 60px 0 54px;
@@ -1165,7 +1040,166 @@ html,body{
     margin-right: 25px;
 }
 
+/*-------------------------------------
+        0. FAQ Accordion
+--------------------------------------*/
+.faq {
+    padding:40px 0 90px;
+	position: relative;
+}
+.faq .accordion{
+    padding:30px 0px 0;
+    width: 90%;
+    margin: auto;
+}
+.faq .accordion .card {
+	background: none;
+	border: none;
+}
+.faq .accordion .card .card-header {
+	background: none;
+	border: none;
+	padding: .4rem 1rem;
+	font-family: 'Poppins', sans-serif;
+}
+.faq .accordion .card-header .btnn {
+	color: #2f2f31;
+	font-size: 15px;
+	text-align: left;
+	position: relative;
+	font-weight: 500;
+	padding-left: 2rem;
+}
+.faq .accordion .card-header i {
+	font-size: 1.2rem;
+	font-weight: bold;
+	position: static;
+	left: 0;
+	/* top: 5px; */
+}
+.faq .accordion .card-header:hover a{
+    /* color: #ff8300; */
+    font-weight: 600;
+    text-decoration: none
+}
+/* .accordion .card-header .btn:hover {
+    color: #ff8300;
+    text-decoration: none
+} */
+.faq .accordion .card-body {
+	color: #324353;
+	padding: 0.5rem 3rem;
+}
+.faq .accordion>.card:not(:last-of-type){
+    border-bottom:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0
+}
+.faq .accordion>.card:not(:first-of-type){
+    border-top-left-radius:0;
+    border-top-right-radius:0
+}
+.faq .accordion>.card>.card-header{
+    border-radius:0;
+    margin-bottom:-1px
+}
+/* Accordion */
 
+/*-------------------------------------
+        -1. Contact Us
+--------------------------------------*/
+.contact-us{
+    padding:40px 0 90px;
+    position: relative;
+}
+.contact-us .contact-us-content{
+    padding:30px 0px 0;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.contact-us .contact-us-content .form-contact-us{
+    padding:30px 0px 50px;
+}
+
+
+.contact-us .contact-us-content .form-contact-us input{
+    height: 50px;
+    /* border-color: #FEBE2F; */
+    border: 2px solid #FEBE2F;
+}
+
+.contact-us .contact-us-content .form-contact-us-textarea {
+    padding: 30px 15px 0;
+}
+.contact-us .contact-us-content .form-contact-us-textarea textarea{
+    height: 200px;
+    /* border-color: #FEBE2F; */
+    border: 2px solid #FEBE2F;
+}
+.contact-us .contact-us-content .btn-contact-us{
+    padding: 30px 15px 0;
+}
+.contact-us .contact-us-content button{
+    background-color: #FEBE2F;
+    color: black;
+    text-align: center;
+    height: 45px;
+    width: 100%;
+    font-weight: 600;
+    border: 2px solid black;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.contact-us .contact-us-content button:hover{
+    font-size: 16px;
+    box-shadow: 0 5px 30px rgba(14,15,18,.7);
+}
+
+@media (max-width:991px){
+    .contact-us .contact-us-content .form-contact-us{
+        padding:0px 0px 0px;
+    }
+    .contact-us .contact-us-content .form-contact-us .responsive-contact-us{
+        padding:10px 0px 0px;
+    }
+    .contact-us .contact-us-content .form-contact-us-textarea {
+        padding: 10px 15px 0px;
+    }
+}
+
+.track-shipment .track-shipment-content .track-shipment-textarea{
+    padding: 0 20px 0;
+}
+.track-shipment .track-shipment-content .track-shipment-textarea textarea{
+    height: 200px;
+    /* border-color: #FEBE2F; */
+    border: 2px solid #FEBE2F;
+}
+.track-shipment .track-shipment-content .btn-track-shipment{
+    padding: 30px 20px 0;
+}
+.track-shipment .track-shipment-content button{
+    background-color: #FEBE2F;
+    color: black;
+    text-align: center;
+    height: 45px;
+    width: 100%;
+    font-weight: 600;
+    border: 2px solid black;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.track-shipment .track-shipment-content button:hover{
+    font-size: 16px;
+    box-shadow: 0 5px 30px rgba(14,15,18,.7);
+}
 /*-------------------------------------
         13.  Footer-copyright
 --------------------------------------*/
@@ -1182,6 +1216,8 @@ html,body{
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     color: black;
+    font-size:16px;
+    margin-bottom: 8px;
 }
 .single-footer-item h2{
     color:black;
@@ -1192,47 +1228,11 @@ html,body{
 
 /*footer-logo*/
 .footer-logo {
-    margin-top: -22px;
+    margin-top: 0px;
 }
-.footer-logo a, .footer-logo a:hover,.footer-logo a:focus {
-    color: #565a5c;
-    font-size:24px;
-    font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
-    font-weight: 600;
-    margin: 14px 0px 0;
-    padding: 10px 0 0 0;
-}
-.footer-logo p{
-    color: #aaa;
-    font-size:16px;
-    font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
-}
+
 /*footer-logo*/
 
-/*single-footer-txt*/
-.single-footer-txt p{
-    margin-bottom:8px;
-}
-.single-footer-txt p a{
-    color:#565a5c;
-    font-size:16px;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition:.5s ease-in-out;
-    -ms-transition:.5s ease-in-out;
-    -o-transition:.5s ease-in-out;
-    transition: .5s ease-in-out;
-
-}
-.single-footer-txt p a:hover{
-    -webkit-transition:scaleX(1.2);
-    -moz-transition:scaleX(1.2);
-    -ms-transition:scaleX(1.2);
-    -o-transition:scaleX(1.2);
-    transform:scaleX(1.2);
-    color: #00d8ff;
-}/*single-footer-txt*/
 
 .footer-copyright hr{
     border-top: 1px solid black;
@@ -1242,6 +1242,7 @@ html,body{
 .foot-icons {
     text-align: center;
     margin-top:0px;
+    position: relative;
 }
 
 .foot-icons p{
