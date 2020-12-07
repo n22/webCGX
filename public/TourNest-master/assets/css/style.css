@@ -449,19 +449,15 @@ html,body{
     display: inline;
     letter-spacing: 2.5px;
 }
-@media(max-width:500px){
+@media(max-width:334px){
     .about-us h2 {
-        font-weight: 450;
+        letter-spacing: 1px;
     }
     .about-us h4 {
-        /* margin-top: -30px; */
-        font-weight: 400 !important;
-        font-size: small;
-        width: 75%;
-        margin: -30px auto auto;
-        padding-top: 1rem;
+        letter-spacing: 1px;
     }
 }
+
 @media (min-width:768px){
     .about-us h4{
         width: 50%;
@@ -475,9 +471,22 @@ html,body{
     font-weight: 450;
     padding-top: 1rem;
     letter-spacing: 1.5px;
-    line-height:26px;
+    /* line-height:26px; */
 }
 
+@media(max-width:500px){
+    .about-us h2 {
+        font-weight: 450;
+    }
+    .about-us h4 {
+        /* margin-top: -30px; */
+        font-weight: 400 !important;
+        font-size: small;
+        /* width: 75%; */
+        margin: -30px auto auto;
+        padding-top: 30px;
+    }
+}
 .about-btn {
     text-align:right;
     margin-top: 39px;
