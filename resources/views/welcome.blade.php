@@ -163,7 +163,7 @@
 
 											<div class="row">
                                             <h3 style="padding-left:10px">
-                                                <strong>Track Shipments</strong>
+                                                <strong style="font-weight:450;font-size:17px;">Track Shipments</strong>
                                             </h3>
 											</div><!--/.row-->
 
@@ -176,7 +176,7 @@
 
 
                                                                 <div class="price_slider_amount">
-                                                                    <input type="text" name="price"  placeholder="Enter a Tracking ID" />
+                                                                    <input type="text" name="price"  placeholder="Track Up To 3 Airwaybill" />
                                                                     <span></span>
                                                                 </div><!--/.price_slider_amount-->
 
