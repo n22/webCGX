@@ -129,13 +129,13 @@ $(document).ready(function(){
             loop:true,
             autoplay: true,
             autoplayTimeout: 2000,
-            smartSpeed:5000,
+            smartSpeed:4000,
 
             //nav:false,
             //navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
 
-            dots:true,
-            autoplayHoverPause:false,
+            dots:false,
+            autoplayHoverPause:true,
 
             responsiveClass:true,
                 responsive:{
@@ -152,8 +152,39 @@ $(document).ready(function(){
                         items:3
                     }
                 }
+        });
 
+        var owl=$('#testemonial-carousel2');
+        owl.owlCarousel({
+            items:2,
+            margin:0,
 
+            loop:true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            smartSpeed:4000,
+
+            //nav:false,
+            //navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+
+            dots:false,
+            autoplayHoverPause:true,
+
+            responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    // 640:{
+                    //     items:1
+                    // },
+                    767:{
+                        items:2
+                    },
+                    // 992:{
+                    //     items:3
+                    // }
+                }
         });
 
     // 5. datepicker

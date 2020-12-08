@@ -902,10 +902,12 @@ html,body{
 
 .testemonial{
     position:relative;
-    background: #f9f9f9;
-    padding:30px 0 30px;
+    background: #fff;
+    padding:60px 0 30px;
 }
-
+.carousel-content{
+    margin-left: -30px;
+}
 /*testemonial-carousel*/
 .home1-testm-single {
     max-width: 345px;
@@ -926,8 +928,23 @@ html,body{
     padding-bottom: 30px;
 }
 
+.home2-testm.item {
+    padding-top: 74px;
+    padding-bottom: 30px;
+    /* padding: 74px 250px 30px; */
+}
+
 /*.home1-testm-img*/
 .home1-testm-img{
+    height: 100px;
+    /* width: 80px; */
+    /* text-align: center; */
+    /* margin: auto; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.home2-testm-img{
     height: 100px;
     /* width: 80px; */
     /* text-align: center; */
@@ -971,7 +988,9 @@ html,body{
 .testemonial .owl-theme .owl-dots .owl-dot.active span{
     background: #F7942E;
 }/*owl-carousel*/
-
+.owl-carousel-two{
+    padding: 0 100px 0;
+}
 /*home1-testm-txt*/
 .home1-testm-txt {
     padding-top: 27px;

@@ -285,7 +285,7 @@
 						<div class="col-lg-5">
 							<div class="single-special-offer">
 								<div class="single-special-offer-txt">
-									<h2><strong>Save Time & <br>Enjoy Our Benefits!</strong></h2>
+									<h2><strong style="font-weight:450;">Save Time & <br>Enjoy Our Benefits!</strong></h2>
 								</div><!--/.single-special-offer-txt-->
 							</div><!--/.single-special-offer-->
                         </div><!--/.col-->
@@ -357,16 +357,17 @@
         <!--special-offer end-->
 
 
+
         <!--clients start-->
-		<section id="clients" class="clients">
+		<!-- <section id="clients" class="clients">
 			<div class="container">
 				<div class="gallary-header text-center">
 					<h2>
-						<strong>Clients</strong>
+						<strong style="font-weight:450;" >Clients</strong>
 					</h2>
-				</div><!--/.gallery-header-->
+				</div>
 				<div class="clients-content">
-					<!-- Clients -->
+
                     <div class="row text-center">
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-airnav.png')}}" alt="Image Description">
 
@@ -381,7 +382,7 @@
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/geofreight.png')}}" alt="Image Description">
                     </div>
                     <div class="row text-center">
-                        <!-- <div class="d-none d-sm-block w-100"></div> -->
+
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-ojk.png')}}" alt="Image Description">
 
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-woobiz.png')}}" alt="Image Description">
@@ -393,11 +394,11 @@
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-wif.png')}}" alt="Image Description">
 
                         <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-transvision.png')}}" alt="Image Description">
-                    </div><!-- End Clients -->
-				</div><!--/.clients-content-->
-			</div><!--/.container-->
+                    </div>
+				</div>
+			</div>
 
-		</section><!--/.clients-->
+		</section> -->
 		<!--clients end-->
 
 		<!-- testemonial Start -->
@@ -406,12 +407,107 @@
 
 				<div class="gallary-header text-center">
 					<h2>
-						<strong>Clients</strong>
+						<strong style="font-weight:450;">Clients</strong>
+					</h2>
+
+				</div>
+                <div class="carousel-content">
+                    <div class="owl-carousel owl-theme" id="testemonial-carousel">
+
+                        <div class="home1-testm item">
+                                <div class="home1-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-airnav.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                        <div class="home1-testm item">
+                                <div class="home1-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-cut-lane.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                        <div class="home1-testm item">
+                                <div class="home1-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/geofreight.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                        <div class="home1-testm item">
+                                <div class="home1-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-big.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                        <div class="home1-testm item">
+                                <div class="home1-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-everwhite.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                        <div class="home1-testm item">
+                                <div class="home1-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/pakdeHD2.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- <div class="owl-carousel-two"> -->
+                    <div class="owl-carousel owl-theme" id="testemonial-carousel2">
+                        <div class="home2-testm item">
+                                <div class="home2-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-ojk.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                        <div class="home2-testm item">
+                                <div class="home2-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-rollerover.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                        <div class="home2-testm item">
+                                <div class="home2-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-transvision.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                        <div class="home2-testm item">
+                                <div class="home2-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-fors.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                        <div class="home2-testm item">
+                                <div class="home2-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-wif.png')}}" alt="img"/>
+                                </div>
+                        </div>
+
+                        <div class="home2-testm item">
+                                <div class="home2-testm-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-woobiz.png')}}" alt="img"/>
+                                </div>
+                        </div>
+                    </div>
+				<!-- </div> -->
+			</div>
+
+		</section>
+        <!-- testemonial End -->
+
+        <!-- testemonial Start -->
+		<!-- <section   class="testemonial">
+			<div class="container">
+
+				<div class="gallary-header text-center">
+					<h2>
+						<strong style="font-weight:450;">Clients</strong>
 					</h2>
 
 				</div>
 
-				<div class="owl-carousel owl-theme" id="testemonial-carousel">
+				<div class="owl-carousel owl-theme" id="testemonial-carousel2">
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
@@ -692,7 +788,7 @@
 				</div>
 			</div>
 
-		</section>
+		</section> -->
         <!-- testemonial End -->
 
         <section id="faq" class="faq">
@@ -701,7 +797,7 @@
                     <div class="col-lg-12">
                         <div class="gallary-header text-center">
                             <h2>
-                                <strong>Frequently Asked Questions</strong>
+                                <strong style="font-weight:450;">Frequently Asked Questions</strong>
                             </h2>
                         </div>
                         <div class="accordion" id="accordionExample">
@@ -777,7 +873,7 @@
                             </h5>
                             <br>
                             <h2>
-                                <strong>Let's Grow Together!</strong>
+                                <strong style="font-weight:450;">Let's Grow Together!</strong>
                             </h2>
                         </div>
                         <div class="contact-us-content">
