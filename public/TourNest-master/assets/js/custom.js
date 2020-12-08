@@ -127,14 +127,15 @@ $(document).ready(function(){
             margin:0,
 
             loop:true,
-            autoplay:true,
-            smartSpeed:1000,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            smartSpeed:5000,
 
             //nav:false,
             //navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
 
             dots:true,
-            autoplayHoverPause:true,
+            autoplayHoverPause:false,
 
             responsiveClass:true,
                 responsive:{

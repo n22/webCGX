@@ -168,7 +168,7 @@
 											</div><!--/.row-->
 
 											<div class="row">
-												<div class="col-sm-6">
+												<div class="col-sm-9">
 													<div class="travel-budget">
 														<div class="row">
 
@@ -184,7 +184,7 @@
 														</div><!--/.row-->
 													</div><!--/.travel-budget-->
 												</div><!--/.col-->
-												<div class="clo-sm-6">
+												<div class="clo-sm-3">
 													<div class="about-btn travel-mrt-0">
 														<button  class="about-view travel-btn">
 															Track
@@ -217,7 +217,7 @@
 				<div class="service-counter text-center">
                     <div class="service-header text-center">
 						<h2>
-							<strong>Our Service</strong>
+							<strong style="font-weight:450;">Our Service</strong>
 						</h2>
 
 					</div><!--/.gallery-header-->
@@ -401,7 +401,7 @@
 		<!--clients end-->
 
 		<!-- testemonial Start -->
-		<!-- <section   class="testemonial">
+		<section   class="testemonial">
 			<div class="container">
 
 				<div class="gallary-header text-center">
@@ -692,7 +692,7 @@
 				</div>
 			</div>
 
-		</section> -->
+		</section>
         <!-- testemonial End -->
 
         <section id="faq" class="faq">
