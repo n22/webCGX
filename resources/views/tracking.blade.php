@@ -121,7 +121,7 @@
 
                     <div class="service-header text-center">
 						<h2>
-							<strong>Track Shipment</strong>
+							<strong style="font-weight:450;">Track Shipment</strong>
 						</h2>
 
 					</div><!--/.gallery-header-->
@@ -164,59 +164,110 @@
 				<div class="track-result-counter text-center">
                     <div class="track-result-header text-center">
 						<h2>
-							<strong>Your Track Information</strong>
+							<strong  style="font-weight:450;">Your Track Information</strong>
 						</h2>
 
 					</div><!--/.gallery-header-->
+                    <div class="accordion" id="accordionExample">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-track-result-box">
+                                <div class="track-result-content">
+                                    <div class="row">
+                                        <div class="col-md-5ths">
+                                            <div class="track-result-title">
+                                                <h2>Airwaybill Number</h2>
+                                            </div>
+                                            <div class="track-result-text">
+                                                <p>12345678bj</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5ths">
+                                            <div class="track-result-title">
+                                                <h2>Date of Delivery</h2>
+                                            </div>
+                                            <div class="track-result-text">
+                                                <p>02-07-2020, 16:06</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5ths">
+                                            <div class="track-result-title">
+                                                <h2>Recipient</h2>
+                                            </div>
+                                            <div class="track-result-text">
+                                                <p>Jane Yarwood Cohive Plaza 89 Kav.X7, Jl. H. R. Rasuna Said No. 6, RT.6/RW.7 16868</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5ths">
+                                            <div class="track-result-title">
+                                                <h2>Sender</h2>
+                                            </div>
+                                            <div class="track-result-text">
+                                                <p>Olivia Yarwood Dusun II Desa Serapuh ABC, Padang Tualang, Langkat,  Sumatra Utara 20852</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5ths">
+                                            <div class="track-result-detail" id="headingOne" data-toggle="collapse" data-target="#collapseOne">
+                                                <!-- <div class="parent" style="background:lightyellow; padding:6em"> -->
+                                                    <a class="btn book-btn " aria-expanded="true" aria-controls="collapseOne">Detail</a>
+                                                    <!-- <div class="child" style="background:gold; padding:1em">&mdash;</div> -->
+                                                </div>
+                                            </div>
 
-					<div class="col-md-12 col-sm-12">
-						<div class="single-track-result-box">
-							<div class="track-result-content">
-                                <div class="row">
-                                    <div class="col-md-5ths">
-                                        <div class="track-result-title">
-                                            <h2>Airwaybill Number</h2>
-                                        </div>
-                                        <div class="track-result-text">
-                                            <p>12345678bj</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5ths">
-                                        <div class="track-result-title">
-                                            <h2>Date of Delivery</h2>
-                                        </div>
-                                        <div class="track-result-text">
-                                            <p>02-07-2020, 16:06</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5ths">
-                                        <div class="track-result-title">
-                                            <h2>Recipient</h2>
-                                        </div>
-                                        <div class="track-result-text">
-                                            <p>Jane Yarwood Cohive Plaza 89 Kav.X7, Jl. H. R. Rasuna Said No. 6, RT.6/RW.7 16868</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5ths">
-                                        <div class="track-result-title">
-                                            <h2>Sender</h2>
-                                        </div>
-                                        <div class="track-result-text">
-                                            <p>Olivia Yarwood Dusun II Desa Serapuh ABC, Padang Tualang, Langkat,  Sumatra Utara 20852</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5ths">
-                                        <div class="track-result-detail">
-                                            <!-- <div class="parent" style="background:lightyellow; padding:6em"> -->
-                                                <a class="btn book-btn " href="#">Detail</a>
-                                                <!-- <div class="child" style="background:gold; padding:1em">&mdash;</div> -->
+                                    <div class="row">
+                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <hr class="haer" style="">
+                                            <div class="track-result-expand">
+                                                <!-- <div class="row">
+                                                    <div class="col-md-1">
+                                                        <div class="containerrr">
+                                                            <div class="circle"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-11">
+                                                        <div class="detail-expand">
+                                                        Completed
+                                                        </div>
+                                                    </div>
+                                                </div> -->
+                                                <div class="row">
+                                                    <div class="containerrr">
+                                                        <ul>
+                                                            <li>
+                                                            <div class="detail-expand">
+                                                                <div class="row">
+                                                                    <div class="title col-md-3">Completed</div><div class="title-time col-md-3">05-07-2020, 16:06</div>
+                                                                </div>
+                                                                <div class="info">Package received by customer.</div>
+                                                            </div><span class="number"></span>
+                                                            </li>
+                                                            <li>
+                                                            <div class="detail-expand">
+                                                                <div class="row">
+                                                                    <div class="title col-md-3">In Transit</div><div class="title-time col-md-3">04-07-2020, 16:06</div>
+                                                                </div>
+                                                                <div class="info">Driver arrived at transit destination. Package sent to customer.</div>
+                                                            </div><span class="number"></span>
+                                                            </li>
+                                                            <li>
+                                                            <div class="detail-expand">
+                                                                <div class="row">
+                                                                    <div class="title col-md-3">Package Process</div><div class="title-time col-md-3">02-07-2020, 16:06</div>
+                                                                </div>
+                                                                <div class="info">Package received by driver. Reached halfway mark.</div>
+                                                            </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-							</div><!--/.track-result-content-->
-						</div><!--/.single-track-result-box-->
-					</div><!--/.col-->
+                                </div><!--/.track-result-content-->
+                            </div><!--/.single-track-result-box-->
+                        </div><!--/.col-->
+                    </div>
 
 				</div><!--/.statistics-counter-->
 			</div><!--/.container-->
