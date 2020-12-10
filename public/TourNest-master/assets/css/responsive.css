@@ -91,9 +91,9 @@
 
 @media screen and (max-width:767px){
 	/* #sticky-wrapper{background: rgba(77,78,84,1);} */
-	.sticky-wrapper .navbar-collapse.collapse.in{background-color: #FEBE2F;width: 112%;margin-left: -15px;padding-left: 27px;}
+	.sticky-wrapper .navbar-collapse.collapse.in{background-color: #FEBE2F;width: 112%;margin-left: -15px;padding-left: 27px;margin-top: 8px;}
 	.logo {float: left;}
-	.main-menu .navbar-toggle {float: right;margin: 10px 0; height: 40px;}
+	.main-menu .navbar-toggle {float: right;margin: 5px 0 0px; height: 40px;}
 	.navbar-collapse {padding-right: 15px;padding-left: 15px;}
 	.main-menu .nav li a {font-size: 14px;padding: 0px 1px 10px;display: inline-block;}
 	.sticky-wrapper.is-sticky .main-menu .nav a:before {bottom: 0px;}

@@ -186,7 +186,7 @@ html,body{
 }
 @media(max-width:767px){
     .header-area{
-        height: 60px;
+        height: 55px;
     }
 }
 
@@ -254,7 +254,11 @@ html,body{
     /* padding: 10px 0 0 0; asli */
     padding: 10px 0 0 0;
 }
-
+@media(max-width:767px){
+    .logo a, .logo a:hover, .logo a:focus{
+        padding: 5px 0 0 0;
+    }
+}
 .logo a span{
     color: #FEBE2F;
     text-transform: capitalize;
@@ -743,6 +747,11 @@ html,body{
     font-family: 'Poppins', sans-serif;
     padding-bottom:14px;
 }
+@media(max-width:767px){
+    .service-header h2{
+        font-size: 20px;
+    }
+}
 /* single-ststistics-box */
 .single-service-box {
     display: block;
@@ -905,6 +914,11 @@ html,body{
     background: #fff;
     padding:60px 0 30px;
 }
+@media(max-width:767px){
+    .client-header h2{
+        font-size: 20px;
+    }
+}
 .carousel-content{
     margin-left: -30px;
 }
@@ -1062,6 +1076,11 @@ html,body{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+@media(max-width:767px){
+    .single-special-offer h2{
+        font-size: 20px;
+    }
+}
 /*single-special-offer*/
 
 .benefit{
@@ -1072,9 +1091,13 @@ html,body{
     /* display: flex; */
     padding-top: 20px;
 }
+.benefit-content h3{
+    font-size: 18px;
+}
 .benefit-content p{
     padding: 20px 20px 0;
     color: black;
+    font-size: 16px;
 }
 .benefit-image{
     text-align: center;
@@ -1217,6 +1240,11 @@ html,body{
     margin: auto;
     text-align: center;
 }
+@media(max-width:767px){
+    .contact-us .contact-us-content{
+        width: 95%;
+    }
+}
 .contact-us .contact-us-content .form-contact-us{
     padding:30px 0px 50px;
 }
@@ -1330,6 +1358,11 @@ html,body{
     font-family: 'Poppins', sans-serif;
     padding-bottom:14px;
 }
+@media(max-width:767px){
+    .track-result-header h2{
+        font-size: 20px;
+    }
+}
 /* single-ststistics-box */
 .single-track-result-box {
     display: block;
@@ -1341,7 +1374,7 @@ html,body{
     -ms-transition:.5s;
     -o-transition:.5s;
     transition: .5s;
-    box-shadow: 0 30px 20px rgba(0,0,0,.2);
+    box-shadow: 0 0px 20px rgba(0,0,0,.2);
 }
 .single-track-result-box:hover{
     /* box-shadow: 0 0 20px rgba(0,0,0,.2); */
@@ -1352,9 +1385,12 @@ html,body{
 .track-result-content {
     padding:0 50px 10px;
     position: relative;
-}
-.track-result-content {
     text-align: center;
+}
+@media(max-width:991px){
+    .track-result-content {
+        padding: 20px 50px 10px;
+    }
 }
 .track-result-content h2 a{
     color:black;

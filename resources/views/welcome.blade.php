@@ -285,7 +285,7 @@
 						<div class="col-lg-5">
 							<div class="single-special-offer">
 								<div class="single-special-offer-txt">
-									<h2><strong style="font-weight:450;">Save Time & <br>Enjoy Our Benefits!</strong></h2>
+									<h2><strong style="font-weight:450;line-height: 1.5;">Save Time & <br>Enjoy Our Benefits!</strong></h2>
 								</div><!--/.single-special-offer-txt-->
 							</div><!--/.single-special-offer-->
                         </div><!--/.col-->
@@ -405,7 +405,7 @@
 		<section   class="testemonial">
 			<div class="container">
 
-				<div class="gallary-header text-center">
+				<div class="client-header text-center">
 					<h2>
 						<strong style="font-weight:450;">Clients</strong>
 					</h2>
@@ -795,7 +795,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="gallary-header text-center">
+                        <div class="client-header text-center">
                             <h2>
                                 <strong style="font-weight:450;">Frequently Asked Questions</strong>
                             </h2>
@@ -867,14 +867,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="gallary-header text-center">
+                        <div class="text-center">
                             <h5>
                                 CONTACT US
                             </h5>
-                            <br>
-                            <h2>
-                                <strong style="font-weight:450;">Let's Grow Together!</strong>
-                            </h2>
+                            <br >
+                            <div class="client-header">
+                                <h2 >
+                                    <strong style="font-weight:450;">Let's Grow Together!</strong>
+                                </h2>
+                            </div>
                         </div>
                         <div class="contact-us-content">
                             <form>
