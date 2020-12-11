@@ -168,7 +168,7 @@
 											</div><!--/.row-->
 
 											<div class="row">
-												<div class="col-sm-9">
+												<div class="col-md-9 col-sm-8">
 													<div class="travel-budget">
 														<div class="row">
 
@@ -184,7 +184,7 @@
 														</div><!--/.row-->
 													</div><!--/.travel-budget-->
 												</div><!--/.col-->
-												<div class="clo-sm-3">
+												<div class="col-md-3 col-sm-4">
 													<div class="about-btn travel-mrt-0">
 														<button  class="about-view travel-btn">
 															Track
@@ -221,56 +221,56 @@
 						</h2>
 
 					</div><!--/.gallery-header-->
+                    <div class="service-content-box">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="single-service-box">
+                                <div class="service-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/service/store-icon.png')}}" alt="service-icon" />
+                                </div><!--/.service-img-->
+                                <div class="service-content">
+                                    <h2>
+                                        <a href="#">
+                                        Fulfillment
+                                        </a>
+                                    </h2>
+                                    <p>Fulfill you business’s needs from storing, preparing, packing, as well as delivering orders.</p>
+                                </div><!--/.service-content-->
+                            </div><!--/.single-service-box-->
+                        </div><!--/.col-->
 
-					<div class="col-md-4 col-sm-4">
-						<div class="single-service-box">
-							<div class="service-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/service/store-icon.png')}}" alt="service-icon" />
-							</div><!--/.service-img-->
-							<div class="service-content">
-								<h2>
-									<a href="#">
-									Fulfillment
-									</a>
-								</h2>
-								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
-							</div><!--/.service-content-->
-						</div><!--/.single-service-box-->
-					</div><!--/.col-->
+                        <div class="col-md-4 col-sm-4">
+                            <div class="single-service-box">
+                                <div class="service-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/service/ship-icon.png')}}" alt="service-icon" />
+                                </div><!--/.service-img-->
+                                <div class="service-content">
+                                    <h2>
+                                        <a href="#">
+                                            Shipping
+                                        </a>
+                                    </h2>
+                                    <p>Delivery services that handles the process of moving commodities, merchandise goods and cargo.</p>
+                                </div><!--/.service-content-->
+                            </div><!--/.single-service-box-->
+                        </div><!--/.col-->
 
-					<div class="col-md-4 col-sm-4">
-						<div class="single-service-box">
-							<div class="service-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/service/ship-icon.png')}}" alt="service-icon" />
-							</div><!--/.service-img-->
-							<div class="service-content">
-								<h2>
-									<a href="#">
-										Shipping
-									</a>
-								</h2>
-								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
-							</div><!--/.service-content-->
-						</div><!--/.single-service-box-->
-					</div><!--/.col-->
+                        <div class="col-md-4 col-sm-4" >
+                            <div class="single-service-box">
+                                <div class="statistics-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/service/web-icon.png')}}" alt="service-icon" />
+                                </div><!--/.service-img-->
+                                <div class="service-content">
 
-					<div class="col-md-4 col-sm-4">
-						<div class="single-service-box">
-							<div class="statistics-img">
-								<img src="{{ secure_asset('TourNest-master/assets/images/service/web-icon.png')}}" alt="service-icon" />
-							</div><!--/.service-img-->
-							<div class="service-content">
-
-								<h2>
-									<a href="#">
-										API Integration
-									</a>
-								</h2>
-								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla. </p>
-							</div><!--/.service-content-->
-						</div><!--/.single-service-box-->
-					</div><!--/.col-->
-
+                                    <h2>
+                                        <a href="#">
+                                            API Integration
+                                        </a>
+                                    </h2>
+                                    <p>Integrate with just about anything to fulfill all your needs.</p>
+                                </div><!--/.service-content-->
+                            </div><!--/.single-service-box-->
+                        </div><!--/.col-->
+                    </div>
 				</div><!--/.statistics-counter-->
 			</div><!--/.container-->
 
