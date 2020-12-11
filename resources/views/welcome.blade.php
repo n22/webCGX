@@ -163,7 +163,7 @@
 
 											<div class="row">
                                             <h3 style="padding-left:10px">
-                                                <strong style="font-weight:450;font-size:17px;">Track Shipments</strong>
+                                                <strong style="font-weight:450;font-size:17px;">Track Shipment</strong>
                                             </h3>
 											</div><!--/.row-->
 
@@ -176,7 +176,7 @@
 
 
                                                                 <div class="price_slider_amount">
-                                                                    <input type="text" name="price"  placeholder="Track Up To 3 Airwaybill" />
+                                                                    <input type="text" name="price"  placeholder="Enter Your Airwaybill Number" />
                                                                     <span></span>
                                                                 </div><!--/.price_slider_amount-->
 
@@ -879,18 +879,19 @@
                             </div>
                         </div>
                         <div class="contact-us-content">
-                            <form>
+                            <form action="https://api.sheetmonkey.io/form/weGTtjNeSaDqYbg3qLbyhw" method="post">
+                                <!-- {{ csrf_field() }} -->
                                 <div class="form-group">
                                     <div class="form-row">
                                         <div class="form-contact-us">
                                             <div class="col-md-6">
                                                 <div class="responsive-contact-us">
-                                                    <input class="form-control" placeholder="Name" >
+                                                    <input class="form-control" name="Name" placeholder="Name" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="responsive-contact-us">
-                                                    <input class="form-control" placeholder="Email" >
+                                                    <input class="form-control" name="Email" placeholder="Email" >
                                                 </div>
                                             </div>
                                         </div>
@@ -899,19 +900,19 @@
                                         <div class="form-contact-us">
                                             <div class="col-md-6">
                                                 <div class="responsive-contact-us">
-                                                    <input class="form-control" placeholder="Company" >
+                                                    <input class="form-control" name="Company" placeholder="Company" >
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="responsive-contact-us">
-                                                    <input class="form-control" placeholder="Phone Number" >
+                                                    <input class="form-control" name="Phone-Number" placeholder="Phone Number" >
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-row">
                                         <div class="form-contact-us-textarea">
-                                            <textarea  rows="4" cols="50" class="form-control" placeholder="How can we help you? Tell us about project description"></textarea>
+                                            <textarea  rows="4" cols="50" class="form-control" name="Project-Description" placeholder="How can we help you? Tell us about project description"></textarea>
                                         </div>
                                     </div>
                                     <div class="btn-contact-us">

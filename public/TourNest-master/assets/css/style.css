@@ -444,7 +444,7 @@ html,body{
 }
 .about-us h2 {
     color:rgb(0, 0, 0);
-    background-color: #F7942E;
+    /* background-color: #F7942E; */
 	font-size:64px;
 	text-transform: inherit;
 	font-weight: 450;
@@ -1466,7 +1466,8 @@ html,body{
 }
 .track-result-content .track-result-detail{
     position: relative;
-    padding-top: 4em;
+    padding-top: 3em;
+    padding-left: 3em;
 }
 @media(max-width:991px){
     .track-result-content .track-result-detail{
@@ -1636,15 +1637,18 @@ html,body{
     -ms-transform: translate(-50%, -50%);
     transform    : translate(-50%, -50%);
 }
-.g-recaptcha{
-    width: 100%;
-    /* border-radius: 4px;
-    border-right: 1px solid #d8d8d8; */
-    overflow: scroll;
+@media(max-width:480px){
+    .g-recaptcha{
+        width: 100%;
+        /* border-radius: 4px;
+        border-right: 1px solid #d8d8d8; */
+        overflow: scroll;
 
-    /* transform:scale(0.77);
-    transform-origin:0 0; */
+        /* transform:scale(0.77);
+        transform-origin:0 0; */
+    }
 }
+
 /*-------------------------------------
         13.  Footer-copyright
 --------------------------------------*/

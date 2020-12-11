@@ -178,31 +178,31 @@
                                                 <h2>Airwaybill Number</h2>
                                             </div>
                                             <div class="track-result-text">
-                                                <p>12345678bj</p>
+                                                <p>12345</p>
                                             </div>
                                         </div>
                                         <div class="col-md-5ths">
                                             <div class="track-result-title">
-                                                <h2>Date of Delivery</h2>
+                                                <h2>Status</h2>
                                             </div>
                                             <div class="track-result-text">
-                                                <p>02-07-2020, 16:06</p>
+                                                <p>Order Finished</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-5ths">
+                                        <div class="col-md-5ths" style="padding-right:0px;margin-left:-10px;">
                                             <div class="track-result-title">
                                                 <h2>Recipient</h2>
                                             </div>
                                             <div class="track-result-text">
-                                                <p>Jane Yarwood Cohive Plaza 89 Kav.X7, Jl. H. R. Rasuna Said No. 6, RT.6/RW.7 16868</p>
+                                                <p>Jane Yarwood</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-5ths">
+                                        <div class="col-md-5ths" style="padding:0px;">
                                             <div class="track-result-title">
-                                                <h2>Sender</h2>
+                                                <h2>Date And Time Received</h2>
                                             </div>
                                             <div class="track-result-text">
-                                                <p>Olivia Yarwood Dusun II Desa Serapuh ABC, Padang Tualang, Langkat,  Sumatra Utara 20852</p>
+                                                <p>02-07-2020, 16:06</p>
                                             </div>
                                         </div>
                                         <div class="col-md-5ths">
