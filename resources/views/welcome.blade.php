@@ -990,7 +990,10 @@
                             <p>&copy; 2019 CGXLOGISTICS</p>
                         </div>
                         <div class="col-sm-6 img-footer">
-                            <img src="{{ secure_asset('TourNest-master/assets/images/home/social.png')}}"/>
+                            <a href="https://www.facebook.com/cgxlogistic"><img src="{{ secure_asset('TourNest-master/assets/images/home/fb.png')}}"/></a>
+                            <a href="https://www.linkedin.com/company/pt.-citra-global-ekspresindo/"><img src="{{ secure_asset('TourNest-master/assets/images/home/li.png')}}"/></a>
+                            <a href="https://www.instagram.com/cgx.id/"><img src="{{ secure_asset('TourNest-master/assets/images/home/ig.png')}}"/></a>
+                            <a href="https://api.whatsapp.com/send?phone=6281311869937"><img src="{{ secure_asset('TourNest-master/assets/images/home/wa.png')}}"/></a>
                         </div>
                     </div>
 
