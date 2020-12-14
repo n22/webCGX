@@ -941,9 +941,12 @@ html,body{
         font-size: 20px;
     }
 }
-.carousel-content{
+/* .carousel-content{
     margin-left: -30px;
 }
+.carousel-content2{
+    margin-right: -30px;
+} */
 /*testemonial-carousel*/
 .home1-testm-single {
     max-width: 345px;

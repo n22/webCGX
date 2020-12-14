@@ -123,9 +123,10 @@ $(document).ready(function(){
 
         var owl=$('#testemonial-carousel');
         owl.owlCarousel({
-            items: 4,
+            // items: 4,
             loop: true,
             margin: 0,
+            center: true,
             autoplay: true,
             slideTransition: 'linear',
             autoplayTimeout: 0,
@@ -142,33 +143,26 @@ $(document).ready(function(){
 
             //nav:false,
             //navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-
+            // center: true,
             dots:false,
+            // stagePadding: 100,
             // autoplayHoverPause:true,
 
             responsiveClass:true,
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    640:{
-                        items:1
-                    },
-                    767:{
-                        items:2
-                    },
-                    992:{
-                        items:3
-                    }
+            responsive:{
+                600:{
+                    items:5
                 }
+            }
         });
 
         var owl=$('#testemonial-carousel2');
         owl.owlCarousel({
-            items: 4,
+            // items: 4,
             rtl: true,
             loop: true,
-            margin: 20,
+            center: true,
+            margin: 0,
             autoplay: true,
             slideTransition: 'linear',
             autoplayTimeout: 0,
@@ -184,23 +178,14 @@ $(document).ready(function(){
 
             //nav:false,
             //navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-
+            // center: true,
             dots:false,
             // autoplayHoverPause:true,
 
             responsiveClass:true,
             responsive:{
-                0:{
-                    items:1
-                },
-                640:{
-                    items:1
-                },
-                767:{
-                    items:2
-                },
-                992:{
-                    items:3
+                600:{
+                    items:5
                 }
             }
         });

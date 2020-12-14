@@ -452,8 +452,8 @@
 
                     </div>
                 </div>
-                <!-- <div class="owl-carousel-two"> -->
-                    <div class="owl-carousel owl-theme" id="testemonial-carousel2" style="margin-left: 20px;">
+                <div class="carousel-content2">
+                    <div class="owl-carousel owl-theme" id="testemonial-carousel2">
                         <div class="home2-testm item">
                                 <div class="home2-testm-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-ojk.png')}}" alt="img"/>
@@ -490,7 +490,7 @@
                                 </div>
                         </div>
                     </div>
-				<!-- </div> -->
+				</div>
 			</div>
 
 		</section>
