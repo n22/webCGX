@@ -132,7 +132,7 @@
                             <div class="form-group">
                                 <div class="form-row">
                                     <div class="track-shipment-textarea">
-                                        <textarea class="form-control" placeholder="You can track up to 10 Airwaybill Number (separated by commas, spaces, or newlines)"></textarea>
+                                        <textarea class="form-control" placeholder="You can track up to 3 Airwaybill Number (separated by commas)"></textarea>
                                     </div>
                                 </div>
                                 <div class="form-row">
@@ -173,15 +173,15 @@
                             <div class="single-track-result-box">
                                 <div class="track-result-content">
                                     <div class="row">
-                                        <div class="col-md-5ths">
-                                            <div class="track-result-title">
+                                        <div class="col-md-5ths airwaybill">
+                                            <div class="track-result-title ">
                                                 <h2>Airwaybill Number</h2>
                                             </div>
                                             <div class="track-result-text">
                                                 <p>12345</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-5ths">
+                                        <div class="col-md-5ths statusbill">
                                             <div class="track-result-title">
                                                 <h2>Status</h2>
                                             </div>
@@ -189,7 +189,7 @@
                                                 <p>Order Finished</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-5ths" style="padding-right:0px;margin-left:-10px;">
+                                        <div class="col-md-5ths recipient" style="">
                                             <div class="track-result-title">
                                                 <h2>Recipient</h2>
                                             </div>
@@ -197,7 +197,7 @@
                                                 <p>Jane Yarwood</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-5ths" style="padding:0px;">
+                                        <div class="col-md-5ths dateandtime" style="">
                                             <div class="track-result-title">
                                                 <h2>Date And Time Received</h2>
                                             </div>
@@ -205,7 +205,7 @@
                                                 <p>02-07-2020, 16:06</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-5ths">
+                                        <div class="col-md-5ths detailbillbutton">
                                             <div class="track-result-detail" id="headingOne" data-toggle="collapse" data-target="#collapseOne">
                                                 <!-- <div class="parent" style="background:lightyellow; padding:6em"> -->
                                                     <a class="btn book-btn " aria-expanded="true" aria-controls="collapseOne">Detail</a>

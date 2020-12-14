@@ -123,19 +123,28 @@ $(document).ready(function(){
 
         var owl=$('#testemonial-carousel');
         owl.owlCarousel({
-            items:3,
-            margin:0,
-
-            loop:true,
+            items: 4,
+            loop: true,
+            margin: 0,
             autoplay: true,
-            autoplayTimeout: 2000,
-            smartSpeed:4000,
+            slideTransition: 'linear',
+            autoplayTimeout: 0,
+            autoplaySpeed: 3000,
+            autoplayHoverPause: false,
+
+            // items:3,
+            // margin:0,
+
+            // loop:true,
+            // autoplay: true,
+            // autoplayTimeout: 2000,
+            // smartSpeed:4000,
 
             //nav:false,
             //navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
 
             dots:false,
-            autoplayHoverPause:true,
+            // autoplayHoverPause:true,
 
             responsiveClass:true,
                 responsive:{
@@ -156,35 +165,44 @@ $(document).ready(function(){
 
         var owl=$('#testemonial-carousel2');
         owl.owlCarousel({
-            items:2,
-            margin:0,
-
-            loop:true,
+            items: 4,
+            rtl: true,
+            loop: true,
+            margin: 20,
             autoplay: true,
-            autoplayTimeout: 2000,
-            smartSpeed:4000,
+            slideTransition: 'linear',
+            autoplayTimeout: 0,
+            autoplaySpeed: 3000,
+            autoplayHoverPause: false,
+
+            // items:2,
+            // margin:0,
+            // loop:true,
+            // autoplay: true,
+            // autoplayTimeout: 2000,
+            // smartSpeed:4000,
 
             //nav:false,
             //navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
 
             dots:false,
-            autoplayHoverPause:true,
+            // autoplayHoverPause:true,
 
             responsiveClass:true,
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    // 640:{
-                    //     items:1
-                    // },
-                    767:{
-                        items:2
-                    },
-                    // 992:{
-                    //     items:3
-                    // }
+            responsive:{
+                0:{
+                    items:1
+                },
+                640:{
+                    items:1
+                },
+                767:{
+                    items:2
+                },
+                992:{
+                    items:3
                 }
+            }
         });
 
     // 5. datepicker

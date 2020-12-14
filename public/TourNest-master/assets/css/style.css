@@ -735,7 +735,7 @@ html,body{
 
 .service {
     position: relative;
-    padding: 60px 0 60px;
+    padding: 60px 0 70px;
 }
 .service-header h2{
     position:relative;
@@ -754,12 +754,12 @@ html,body{
 }
 /* single-ststistics-box */
 .single-service-box {
-    display: block;
+    /* display: block; */
+    display: table;
     margin-bottom: 30px;
     /* height: 370px; */
-    height: 400px;
+    height: 370px;
     min-height: 350px;
-    /* box-shadow: 0 0 20px rgba(0,0,0,.1); */
     -webkit-transition: .5s;
     -moz-transition:.5s;
     -ms-transition:.5s;
@@ -790,20 +790,21 @@ html,body{
         width: 220px;
         height: 150px;
     }
-    /* .single-service-box img{
-        max-width: 100%;
-    } */
+
 }
 
 .service-content {
-    padding:0 50px 20px;
+    padding:0 30px 20px;
 }
 @media(max-width:991px){
     .service-content{
         padding: 0 20px 20px;
     }
     .single-service-box{
-        height: 420px;
+        height: 370px;
+    }
+    .single-service-box img{
+        margin: 20px 0 0;
     }
 }
 .service-content h2 a{
@@ -815,7 +816,7 @@ html,body{
 }
 .service-content p{
     color:black;
-    font-size:16px;
+    font-size:14px;
     text-transform:inherit;
     font-family: 'Poppins', sans-serif;
     margin-top: 17px;
@@ -1118,7 +1119,7 @@ html,body{
 .benefit-content p{
     padding: 20px 20px 0;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
 }
 .benefit-image{
     text-align: center;
@@ -1207,11 +1208,10 @@ html,body{
 }
 .faq .accordion .card-header .btnn {
 	color: #2f2f31;
-	font-size: 15px;
 	text-align: left;
 	position: relative;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
 	padding-left: 2rem;
 }
 .faq .accordion .card-header i {
@@ -1234,8 +1234,13 @@ html,body{
 	color: #324353;
     padding: 0.5rem 3rem;
     margin-left: 15px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
+}
+@media(max-width:400px){
+    .faq .accordion .card-body {
+        margin-left: 0;
+    }
 }
 .faq .accordion>.card:not(:last-of-type){
     border-bottom:0;
@@ -1333,7 +1338,7 @@ html,body{
     padding: 0 20px 30px;
 }
 .track-shipment .track-shipment-content .track-shipment-textarea textarea{
-    height: 200px;
+    height: 100px;
     /* border-color: #FEBE2F; */
     border: 2px solid #FEBE2F;
 }
@@ -1346,12 +1351,17 @@ html,body{
 .track-shipment .track-shipment-content .btn-track-shipment{
     padding: 30px 20px 0;
 }
+@media(max-width:480px){
+    .track-shipment .track-shipment-content .btn-track-shipment{
+        padding: 0 20px 0;
+    }
+}
 .track-shipment .track-shipment-content button{
     background-color: #FEBE2F;
     color: black;
     text-align: center;
     height: 45px;
-    width: 100%;
+    width: 150px;
     font-weight: 600;
     border: 2px solid black;
     -webkit-transition: 0.5s ease-in-out;
@@ -1408,13 +1418,13 @@ html,body{
 
 /* single-ststistics-box */
 .track-result-content {
-    padding:0 50px 10px;
+    padding:0 30px 10px;
     position: relative;
     text-align: center;
 }
 @media(max-width:991px){
     .track-result-content {
-        padding: 20px 50px 10px;
+        padding: 30px 30px 10px;
     }
 }
 .track-result-content h2 a{
@@ -1444,7 +1454,7 @@ html,body{
 .track-result-content .track-result-title h2{
     position:relative;
     color: black;
-    font-size:17px;
+    font-size:16px;
     font-weight:400;
     margin-bottom: 0px;
     text-transform:capitalize;
@@ -1467,7 +1477,7 @@ html,body{
 .track-result-content .track-result-detail{
     position: relative;
     padding-top: 3em;
-    padding-left: 3em;
+    /* padding-left: 3em; */
 }
 @media(max-width:991px){
     .track-result-content .track-result-detail{
@@ -1578,7 +1588,7 @@ html,body{
     font-size: 12px; */
     position:relative;
     color: black;
-    font-size:17px;
+    font-size:16px;
     font-weight:400;
     margin-bottom: 0px;
     text-transform:capitalize;
@@ -1642,13 +1652,43 @@ html,body{
         width: 100%;
         /* border-radius: 4px;
         border-right: 1px solid #d8d8d8; */
-        overflow: scroll;
+        /* overflow: scroll; */
 
-        /* transform:scale(0.77);
-        transform-origin:0 0; */
+        transform:scale(0.77);
+        transform-origin:0 0;
     }
 }
+@media(max-width:300px){
+    .g-recaptcha{
+        transform:scale(0.7);
+        transform-origin:0 0;
+    }
+}
+@media(min-width:1200px){
+    .recipient{
+        padding-right:0px;margin-left:-10px;
+    }
+    .dateandtime{
+        padding:0px;
+    }
+}
+@media(min-width:991px){
+    .airwaybill{
 
+    }
+    .statusbill{
+        width: 17.5%;
+    }
+    .recipient{
+        width: 17.5%;
+    }
+    .dateandtime{
+        width: 28%;
+    }
+    .detailbillbutton{
+        width: 17%;
+    }
+}
 /*-------------------------------------
         13.  Footer-copyright
 --------------------------------------*/
@@ -1665,12 +1705,12 @@ html,body{
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     color: black;
-    font-size:16px;
+    font-size:14px;
     margin-bottom: 8px;
 }
 .single-footer-item h2{
     color:black;
-    font-size:16px;
+    font-size:14px;
     font-weight: 500;
     margin-bottom:16px;
 }/*single-footer-item*/
@@ -1678,6 +1718,9 @@ html,body{
 /*footer-logo*/
 .footer-logo {
     margin-top: 0px;
+}
+.footer-logo img{
+    width: 60%;
 }
 
 /*footer-logo*/

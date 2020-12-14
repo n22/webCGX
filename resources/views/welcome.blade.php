@@ -256,7 +256,7 @@
 
                         <div class="col-md-4 col-sm-4" >
                             <div class="single-service-box">
-                                <div class="statistics-img">
+                                <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/web-icon.png')}}" alt="service-icon" />
                                 </div><!--/.service-img-->
                                 <div class="service-content">
@@ -285,7 +285,7 @@
 						<div class="col-lg-5">
 							<div class="single-special-offer">
 								<div class="single-special-offer-txt">
-									<h2><strong style="font-weight:450;line-height: 1.5;">Save Time & <br>Enjoy Our Benefits!</strong></h2>
+									<h2><strong style="font-weight: 550;line-height: 1.5;letter-spacing: 1.5px;">Save Time & <br>Enjoy Our Benefits!</strong></h2>
 								</div><!--/.single-special-offer-txt-->
 							</div><!--/.single-special-offer-->
                         </div><!--/.col-->
@@ -453,7 +453,7 @@
                     </div>
                 </div>
                 <!-- <div class="owl-carousel-two"> -->
-                    <div class="owl-carousel owl-theme" id="testemonial-carousel2">
+                    <div class="owl-carousel owl-theme" id="testemonial-carousel2" style="margin-left: 20px;">
                         <div class="home2-testm item">
                                 <div class="home2-testm-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/client/bw-ojk.png')}}" alt="img"/>
