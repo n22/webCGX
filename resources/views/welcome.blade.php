@@ -214,7 +214,7 @@
 		<!--travel-box end-->
 
         <!--service start-->
-		<section id="service" class="service">
+		<!-- <section id="service" class="service">
 			<div class="container">
 
 				<div class="service-counter text-center">
@@ -223,13 +223,13 @@
 							<strong style="font-weight:450;">Our Service (Overflow-x / Lama)</strong>
 						</h2>
 
-					</div><!--/.gallery-header-->
+					</div>
                     <div class="service-content-box">
                         <div class="col-md-4 col-sm-4">
                             <div class="single-service-box">
                                 <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/store-icon.png')}}" alt="service-icon" />
-                                </div><!--/.service-img-->
+                                </div>
                                 <div class="service-content">
                                     <h2>
                                         <a href="#">
@@ -237,15 +237,15 @@
                                         </a>
                                     </h2>
                                     <p>Fulfill you business’s needs from storing, preparing, packing, as well as delivering orders.</p>
-                                </div><!--/.service-content-->
-                            </div><!--/.single-service-box-->
-                        </div><!--/.col-->
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="col-md-4 col-sm-4">
                             <div class="single-service-box">
                                 <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/ship-icon.png')}}" alt="service-icon" />
-                                </div><!--/.service-img-->
+                                </div>
                                 <div class="service-content">
                                     <h2>
                                         <a href="#">
@@ -253,15 +253,15 @@
                                         </a>
                                     </h2>
                                     <p>Delivery services that handles the process of moving commodities, merchandise goods and cargo.</p>
-                                </div><!--/.service-content-->
-                            </div><!--/.single-service-box-->
-                        </div><!--/.col-->
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="col-md-4 col-sm-4">
                             <div class="single-service-box">
                                 <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/web-icon.png')}}" alt="service-icon" />
-                                </div><!--/.service-img-->
+                                </div>
                                 <div class="service-content">
 
                                     <h2>
@@ -270,14 +270,14 @@
                                         </a>
                                     </h2>
                                     <p>Integrate with just about anything to fulfill all your needs.</p>
-                                </div><!--/.service-content-->
-                            </div><!--/.single-service-box-->
-                        </div><!--/.col-->
+                                </div>
+                            </div>
+                        </div>
                     </div>
-				</div><!--/.statistics-counter-->
-			</div><!--/.container-->
+				</div>
+			</div>
 
-		</section><!--/.service-->
+		</section> -->
         <!--service end-->
 
         <!--service start-->
@@ -287,11 +287,11 @@
 				<div class="service-counter text-center">
                     <div class="service-header text-center">
 						<h2>
-							<strong style="font-weight:450;">Our Service (Flickity)</strong>
+							<strong style="font-weight:450;">Our Service</strong>
 						</h2>
 
 					</div><!--/.gallery-header-->
-                    <div class="service-content-box carousel" data-flickity='{ "wrapAround": true }'>
+                    <div class="service-content-box carousel" data-flickity='{ "initialIndex": 1, "prevNextButtons": false }'>
                         <div class="col-md-4 col-sm-4">
                             <div class="single-service-box carousel-cell">
                                 <div class="service-img">
@@ -348,7 +348,7 @@
         <!--service end-->
 
         <!--service start-->
-		<section id="service" class="service">
+		<!-- <section id="service" class="service">
 			<div class="container">
 
 				<div class="service-counter text-center">
@@ -357,13 +357,13 @@
 							<strong style="font-weight:450;">Our Service (Carousel)</strong>
 						</h2>
 
-					</div><!--/.gallery-header-->
+					</div>
                     <div class="service-content-box owl-carousel owl-theme" id="service-carousel">
 
                             <div class="single-service-box2">
                                 <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/store-icon.png')}}" alt="service-icon" />
-                                </div><!--/.service-img-->
+                                </div>
                                 <div class="service-content">
                                     <h2>
                                         <a href="#">
@@ -371,15 +371,15 @@
                                         </a>
                                     </h2>
                                     <p>Fulfill you business’s needs from storing, preparing, packing, as well as delivering orders.</p>
-                                </div><!--/.service-content-->
-                            </div><!--/.single-service-box-->
+                                </div>
+                            </div>
 
 
 
                             <div class="single-service-box2">
                                 <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/ship-icon.png')}}" alt="service-icon" />
-                                </div><!--/.service-img-->
+                                </div>
                                 <div class="service-content">
                                     <h2>
                                         <a href="#">
@@ -387,15 +387,15 @@
                                         </a>
                                     </h2>
                                     <p>Delivery services that handles the process of moving commodities, merchandise goods and cargo.</p>
-                                </div><!--/.service-content-->
-                            </div><!--/.single-service-box-->
+                                </div>
+                            </div>
 
 
 
                             <div class="single-service-box2">
                                 <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/web-icon.png')}}" alt="service-icon" />
-                                </div><!--/.service-img-->
+                                </div>
                                 <div class="service-content">
 
                                     <h2>
@@ -404,14 +404,14 @@
                                         </a>
                                     </h2>
                                     <p>Integrate with just about anything to fulfill all your needs.</p>
-                                </div><!--/.service-content-->
-                            </div><!--/.single-service-box-->
+                                </div>
+                            </div>
 
                     </div>
-				</div><!--/.statistics-counter-->
-			</div><!--/.container-->
+				</div>
+			</div>
 
-		</section><!--/.service-->
+		</section> -->
         <!--service end-->
 
         <!--special-offer start-->
