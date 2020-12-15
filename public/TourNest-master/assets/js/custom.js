@@ -118,8 +118,58 @@ $(document).ready(function(){
 
     // 4. owl carousel
 
+        var owl=$('#service-carousel');
         // i. #testimonial-carousel
-
+        owl.owlCarousel({
+            loop: true,
+            margin: 30,
+            dots: true,
+            // autoWidth: true,
+            // items: 3,
+            nav: false,
+            responsiveClass: true,
+            responsive: {
+              0: {
+                items: 1,
+                margin: 10,
+                stagePadding: 30,
+              },
+              350:{
+                items: 1,
+                // margin: 10,
+                stagePadding: 60,
+              },
+              400:{
+                items: 1,
+                margin: 10,
+                stagePadding: 70,
+              },
+              450:{
+                items: 1,
+                margin: 10,
+                stagePadding: 90,
+              },
+              500: {
+                items: 2,
+                margin: 10,
+                stagePadding: 10,
+              },
+              600: {
+                items: 2,
+                margin: 10,
+                stagePadding: 30,
+              },
+              700: {
+                items: 3,
+                margin: 10,
+                stagePadding: 10,
+              },
+              800:{
+                  items: 3,
+                  margin: 30,
+              }
+            }
+          });
 
         var owl=$('#testemonial-carousel');
         owl.owlCarousel({

@@ -793,7 +793,7 @@ html,body{
 
 }
 
-.service-content {
+.single-service-box .service-content {
     padding:0 30px 20px;
 }
 @media(max-width:991px){
@@ -822,6 +822,49 @@ html,body{
     margin-top: 17px;
     white-space: normal;
 }
+
+.single-service-box2 {
+    display: block;
+    margin-bottom: 30px;
+    /* height: 370px; */
+    height: auto;
+    min-height: 350px;
+    -webkit-transition: .5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    transition: .5s;
+    box-shadow: 0 25px 15px rgba(0,0,0,.2);
+}
+.single-service-box2 img {
+    width: auto !important;
+    display: initial !important;
+    height: 180px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.single-service-box2 .service-content {
+    padding:0 30px 20px;
+    height: 160px;
+}
+/* .carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+} */
 /*-------------------------------------
         5. Clients
 --------------------------------------*/

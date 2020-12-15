@@ -29,6 +29,9 @@
 		<!--hover.css-->
 		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/hover-min.css')}}">
 
+        <!--flickity.css-->
+		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/flickity.css')}}">
+
 		<!--datepicker.css-->
 		<link rel="stylesheet"  href="{{ secure_asset('TourNest-master/assets/css/datepicker.css')}}" >
 
@@ -217,7 +220,7 @@
 				<div class="service-counter text-center">
                     <div class="service-header text-center">
 						<h2>
-							<strong style="font-weight:450;">Our Service</strong>
+							<strong style="font-weight:450;">Our Service (Overflow-x / Lama)</strong>
 						</h2>
 
 					</div><!--/.gallery-header-->
@@ -254,7 +257,7 @@
                             </div><!--/.single-service-box-->
                         </div><!--/.col-->
 
-                        <div class="col-md-4 col-sm-4" >
+                        <div class="col-md-4 col-sm-4">
                             <div class="single-service-box">
                                 <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/web-icon.png')}}" alt="service-icon" />
@@ -270,6 +273,140 @@
                                 </div><!--/.service-content-->
                             </div><!--/.single-service-box-->
                         </div><!--/.col-->
+                    </div>
+				</div><!--/.statistics-counter-->
+			</div><!--/.container-->
+
+		</section><!--/.service-->
+        <!--service end-->
+
+        <!--service start-->
+		<section id="service" class="service">
+			<div class="container">
+
+				<div class="service-counter text-center">
+                    <div class="service-header text-center">
+						<h2>
+							<strong style="font-weight:450;">Our Service (Flickity)</strong>
+						</h2>
+
+					</div><!--/.gallery-header-->
+                    <div class="service-content-box carousel" data-flickity='{ "wrapAround": true, }'>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="single-service-box carousel-cell">
+                                <div class="service-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/service/store-icon.png')}}" alt="service-icon" />
+                                </div><!--/.service-img-->
+                                <div class="service-content">
+                                    <h2>
+                                        <a href="#">
+                                        Fulfillment
+                                        </a>
+                                    </h2>
+                                    <p>Fulfill you business’s needs from storing, preparing, packing, as well as delivering orders.</p>
+                                </div><!--/.service-content-->
+                            </div><!--/.single-service-box-->
+                        </div><!--/.col-->
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="single-service-box carousel-cell">
+                                <div class="service-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/service/ship-icon.png')}}" alt="service-icon" />
+                                </div><!--/.service-img-->
+                                <div class="service-content">
+                                    <h2>
+                                        <a href="#">
+                                            Shipping
+                                        </a>
+                                    </h2>
+                                    <p>Delivery services that handles the process of moving commodities, merchandise goods and cargo.</p>
+                                </div><!--/.service-content-->
+                            </div><!--/.single-service-box-->
+                        </div><!--/.col-->
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="single-service-box carousel-cell">
+                                <div class="service-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/service/web-icon.png')}}" alt="service-icon" />
+                                </div><!--/.service-img-->
+                                <div class="service-content">
+
+                                    <h2>
+                                        <a href="#">
+                                            API Integration
+                                        </a>
+                                    </h2>
+                                    <p>Integrate with just about anything to fulfill all your needs.</p>
+                                </div><!--/.service-content-->
+                            </div><!--/.single-service-box-->
+                        </div><!--/.col-->
+                    </div>
+				</div><!--/.statistics-counter-->
+			</div><!--/.container-->
+
+		</section><!--/.service-->
+        <!--service end-->
+
+        <!--service start-->
+		<section id="service" class="service">
+			<div class="container">
+
+				<div class="service-counter text-center">
+                    <div class="service-header text-center">
+						<h2>
+							<strong style="font-weight:450;">Our Service (Carousel)</strong>
+						</h2>
+
+					</div><!--/.gallery-header-->
+                    <div class="service-content-box owl-carousel owl-theme" id="service-carousel">
+
+                            <div class="single-service-box2">
+                                <div class="service-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/service/store-icon.png')}}" alt="service-icon" />
+                                </div><!--/.service-img-->
+                                <div class="service-content">
+                                    <h2>
+                                        <a href="#">
+                                        Fulfillment
+                                        </a>
+                                    </h2>
+                                    <p>Fulfill you business’s needs from storing, preparing, packing, as well as delivering orders.</p>
+                                </div><!--/.service-content-->
+                            </div><!--/.single-service-box-->
+
+
+
+                            <div class="single-service-box2">
+                                <div class="service-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/service/ship-icon.png')}}" alt="service-icon" />
+                                </div><!--/.service-img-->
+                                <div class="service-content">
+                                    <h2>
+                                        <a href="#">
+                                            Shipping
+                                        </a>
+                                    </h2>
+                                    <p>Delivery services that handles the process of moving commodities, merchandise goods and cargo.</p>
+                                </div><!--/.service-content-->
+                            </div><!--/.single-service-box-->
+
+
+
+                            <div class="single-service-box2">
+                                <div class="service-img">
+                                    <img src="{{ secure_asset('TourNest-master/assets/images/service/web-icon.png')}}" alt="service-icon" />
+                                </div><!--/.service-img-->
+                                <div class="service-content">
+
+                                    <h2>
+                                        <a href="#">
+                                            API Integration
+                                        </a>
+                                    </h2>
+                                    <p>Integrate with just about anything to fulfill all your needs.</p>
+                                </div><!--/.service-content-->
+                            </div><!--/.single-service-box-->
+
                     </div>
 				</div><!--/.statistics-counter-->
 			</div><!--/.container-->
@@ -1021,7 +1158,6 @@
         });
         </script>
 
-
 		<script src="{{ secure_asset('TourNest-master/assets/js/jquery.js')}}"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 
@@ -1055,6 +1191,9 @@
 
         <!--datepicker.js-->
         <script  src="{{ secure_asset('TourNest-master/assets/js/datepicker.js')}}"></script>
+
+		<!--flickity-->
+        <script src="{{ secure_asset('TourNest-master/assets/js/flickity.js')}}"></script>
 
 		<!--Custom JS-->
 		<script src="{{ secure_asset('TourNest-master/assets/js/custom.js')}}"></script>
