@@ -418,7 +418,7 @@
         <section id="benefits" class="special-offer">
 			<div class="container">
 				<div class="special-offer-content">
-					<div class="row">
+					<div class="carousel ">
 						<div class="col-lg-5">
 							<div class="single-special-offer">
 								<div class="single-special-offer-txt">
@@ -481,6 +481,77 @@
                                         <div class="col-md-10">
                                             <h3>Secured Facility</h3>
                                             <p>Our facilities have 'round the clock (24/7) supervision, we guarantee your products safety and security.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--/.col-->
+                        </div>
+
+                        <div class="benefit-mobile">
+                            <div class="col-lg-7">
+                                <div class="row" data-flickity='{ "initialIndex": 0, "prevNextButtons": false }'>
+                                    <div class="col-md-3" style="padding:0;">
+                                        <div class="single-benefit-box">
+                                            <div class="benefit-image-mobile">
+                                                <div class="col-md-2">
+                                                    <img src="{{ secure_asset('TourNest-master/assets/images/benefit/scallable-1.png')}}" alt="benefit-icon" />
+                                                </div>
+                                            </div>
+                                            <div class="benefit-content-mobile">
+                                                <div class="col-md-10">
+                                                    <h3>Scalability Fulfillment</h3>
+                                                    <p>We store, regular quality control check, profesionally pack, and manage your inventory. No matter how big or small, our space is ready for your company growth</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-3" style="padding:0;">
+                                        <div class="single-benefit-box">
+                                            <div class="benefit-image-mobile">
+                                                <div class="col-md-2">
+                                                    <img src="{{ secure_asset('TourNest-master/assets/images/benefit/analitik-1.png')}}" alt="benefit-icon" />
+                                                </div>
+                                            </div>
+                                            <div class="benefit-content-mobile">
+                                                <div class="col-md-10">
+                                                    <h3>Analytical Evaluation</h3>
+                                                    <p>We don't just pack and ship, we will also give you an in-depth insight (e.g: which product sells the most in which time of the year, etc). Giving you a more accurate knowledge of your customer behavior</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3" style="padding:0;">
+                                        <div class="single-benefit-box">
+                                            <div class="benefit-image-mobile">
+                                                <div class="col-md-2">
+                                                    <img src="{{ secure_asset('TourNest-master/assets/images/benefit/accurate-1.png')}}" alt="benefit-icon" />
+                                                </div>
+                                            </div>
+                                            <div class="benefit-content-mobile">
+                                                <div class="col-md-10">
+                                                    <h3>Accurate Logistical Services</h3>
+                                                    <p>We arrange your shipment accurately with the most efficient cost. Whether its by land, air, sea, or multi mode, we deliver on time to satisfy you and your customer needs.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3" style="padding:0;">
+                                        <div class="single-benefit-box">
+                                            <div class="benefit-image-mobile">
+                                                <div class="col-md-2">
+                                                    <img src="{{ secure_asset('TourNest-master/assets/images/benefit/secured-1.png')}}" alt="benefit-icon" />
+                                                </div>
+                                            </div>
+                                            <div class="benefit-content-mobile">
+                                                <div class="col-md-10">
+                                                    <h3>Secured Facility</h3>
+                                                    <p>Our facilities have 'round the clock (24/7) supervision, we guarantee your products safety and security.</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
