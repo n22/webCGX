@@ -291,8 +291,8 @@
 						</h2>
 
 					</div><!--/.gallery-header-->
-                    <div class="service-content-box carousel" data-flickity='{ "initialIndex": 1, "prevNextButtons": false }'>
-                        <div class="col-md-4 col-sm-4">
+                    <div class="service-content-box carousel" data-flickity='{ "pageDots": false, "initialIndex": 0, "prevNextButtons": false, "cellAlign": "left", "contain": true }'>
+                        <div class="col-md-4 col-sm-4" style="padding: 0 10px 0">
                             <div class="single-service-box carousel-cell">
                                 <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/store-icon.png')}}" alt="service-icon" />
@@ -308,7 +308,7 @@
                             </div><!--/.single-service-box-->
                         </div><!--/.col-->
 
-                        <div class="col-md-4 col-sm-4">
+                        <div class="col-md-4 col-sm-4" style="padding: 0 10px 0">
                             <div class="single-service-box carousel-cell">
                                 <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/ship-icon.png')}}" alt="service-icon" />
@@ -324,7 +324,7 @@
                             </div><!--/.single-service-box-->
                         </div><!--/.col-->
 
-                        <div class="col-md-4 col-sm-4">
+                        <div class="col-md-4 col-sm-4" style="padding: 0 10px 0">
                             <div class="single-service-box carousel-cell">
                                 <div class="service-img">
                                     <img src="{{ secure_asset('TourNest-master/assets/images/service/web-icon.png')}}" alt="service-icon" />
@@ -489,8 +489,8 @@
 
                         <div class="benefit-mobile">
                             <div class="col-lg-7">
-                                <div class="row" data-flickity='{ "initialIndex": 0, "prevNextButtons": false }'>
-                                    <div class="col-md-3" style="padding:0;">
+                                <div class="row" data-flickity='{ "pageDots": false, "initialIndex": 0, "prevNextButtons": false, "cellAlign": "left", "contain": true}'>
+                                    <div class="col-md-3" >
                                         <div class="single-benefit-box">
                                             <div class="benefit-image-mobile">
                                                 <div class="col-md-2">
@@ -507,7 +507,7 @@
 
                                     </div>
 
-                                    <div class="col-md-3" style="padding:0;">
+                                    <div class="col-md-3" >
                                         <div class="single-benefit-box">
                                             <div class="benefit-image-mobile">
                                                 <div class="col-md-2">
@@ -523,7 +523,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-3" style="padding:0;">
+                                    <div class="col-md-3" >
                                         <div class="single-benefit-box">
                                             <div class="benefit-image-mobile">
                                                 <div class="col-md-2">
@@ -539,7 +539,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-3" style="padding:0;">
+                                    <div class="col-md-3" >
                                         <div class="single-benefit-box">
                                             <div class="benefit-image-mobile">
                                                 <div class="col-md-2">
@@ -549,7 +549,7 @@
                                             <div class="benefit-content-mobile">
                                                 <div class="col-md-10">
                                                     <h3>Secured Facility</h3>
-                                                    <p>Our facilities have 'round the clock (24/7) supervision, we guarantee your products safety and security.</p>
+                                                    <p style="padding-top:40px;">Our facilities have 'round the clock (24/7) supervision, we guarantee your products safety and security.</p>
                                                 </div>
                                             </div>
                                         </div>
