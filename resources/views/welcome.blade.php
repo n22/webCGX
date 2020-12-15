@@ -291,7 +291,7 @@
 						</h2>
 
 					</div><!--/.gallery-header-->
-                    <div class="service-content-box carousel" data-flickity='{ "wrapAround": true, }'>
+                    <div class="service-content-box carousel" data-flickity='{ "wrapAround": true }'>
                         <div class="col-md-4 col-sm-4">
                             <div class="single-service-box carousel-cell">
                                 <div class="service-img">
