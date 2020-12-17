@@ -91,10 +91,10 @@
 								</div><!-- /.navbar-header-->
 								<div class="collapse navbar-collapse">
 									<ul class="nav navbar-nav navbar-right">
-										<li class="smooth-menu"><a href="#home">Home</a></li>
-										<li class="smooth-menu"><a href="#service">Service</a></li>
-										<li class="smooth-menu"><a href="#faq">FAQ</a></li>
-										<li class="smooth-menu"><a href="#contact-us">Contact Us </a></li>
+										<li class=""><a href="{{ route('home')}}/#home">Home</a></li>
+										<li class=""><a href="{{ route('home')}}/#service">Service</a></li>
+										<li class=""><a href="{{ route('home')}}/#faq">FAQ</a></li>
+										<li class=""><a href="{{ route('home')}}/#contact-us">Contact Us </a></li>
 										<!-- <li class="smooth-menu"><a href="#blog">blog</a></li>
 										<li class="smooth-menu"><a href="#subs">subscription</a></li> -->
 										<li>
@@ -293,13 +293,13 @@
 
 						<div class="col-sm-2">
 							<div class="single-footer-item">
-                                <h2><strong>Company</strong></h2>
-
-								<h2>About</h2>
-
-								<h2>Contact Us</h2>
-
-								<h2>FAQ</h2>
+                                <a href="{{ route('home')}}/#home"><h2><strong>Company</strong></h2></a>
+                                <br>
+								<a href="{{ route('home')}}/#service"><h2>About</h2></a>
+                                <br>
+								<a href="{{ route('home')}}/#contact-us"><h2>Contact Us</h2></a>
+                                <br>
+								<a href="{{ route('home')}}/#faq"><h2>FAQ</h2></a>
 							</div><!--/.single-footer-item-->
 
 						</div><!--/.col-->
@@ -369,7 +369,6 @@
         });
         </script>
 
-
 		<script src="{{ secure_asset('TourNest-master/assets/js/jquery.js')}}"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 
@@ -390,6 +389,7 @@
 
 		<!--jquery-ui.min.js-->
         <script src="{{ secure_asset('TourNest-master/assets/js/jquery-ui.min.js')}}"></script>
+
 
         <!-- counter js -->
 		<script src="{{ secure_asset('TourNest-master/assets/js/jquery.counterup.min.js')}}"></script>

@@ -15,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
+
+Route::get('/goback', function () {
+    return Redirect::back()->with('submit-success', 1);
+})->name('goback');
 
 Route::get('/tracking', function () {
     return view('tracking');

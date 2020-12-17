@@ -21,7 +21,8 @@
 		<link rel="shortcut icon" type="image/icon" href="{{ secure_asset('TourNest-master/assets/logo/favicon.png')}}"/>
 
 		<!--font-awesome.min.css-->
-		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/font-awesome.min.css')}}" />
+		<!-- <link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/font-awesome.min.css')}}" /> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 		<!--animate.css-->
 		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/animate.css')}}" />
@@ -43,9 +44,11 @@
         <link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/jquery-ui.min.css')}}" />
 
 		<!--bootstrap.min.css-->
-		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/bootstrap.min.css')}}" />
+		<!-- <link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/bootstrap.min.css')}}" /> -->
+		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/bootstrap-3.3.1.css')}}" />
+        <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet"> -->
 
-		<!-- bootsnav -->
+        <!-- bootsnav -->
 		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/bootsnav.css')}}"/>
 
 		<!--style.css-->
@@ -1135,6 +1138,37 @@
             </div>
         </section>
 
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-contact-us">
+        Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal-contact-us" tabindex="-1" role="dialog" aria-labelledby="modal-contact-usTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align:center;">
+                    <i class="far fa-check-circle" style='font-size:68px;color:green'></i>
+                    <br>
+                    <br>
+                    <h3>Success</h3>
+                    <br>
+                    <p>Thank you for contacting us. We will get back to you as soon as possible</p>
+                </div>
+                <div class="modal-footer" style="text-align:center;">
+                    <button style="background-color:#FEBE2F;" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+            </div>
+        </div>
+
 		<!-- footer-copyright start -->
 		<footer  class="footer-copyright">
 			<div class="container">
@@ -1153,13 +1187,13 @@
 
 						<div class="col-sm-2">
 							<div class="single-footer-item">
-                                <h2><strong>Company</strong></h2>
-
-								<h2>About</h2>
-
-								<h2>Contact Us</h2>
-
-								<h2>FAQ</h2>
+                                <a href="#home"><h2><strong>Company</strong></h2></a>
+                                <br>
+								<a href="#service"><h2>About</h2></a>
+                                <br>
+								<a href="#contact-us"><h2>Contact Us</h2></a>
+                                <br>
+								<a href="#faq"><h2>FAQ</h2></a>
 							</div><!--/.single-footer-item-->
 
 						</div><!--/.col-->
@@ -1228,7 +1262,23 @@
             });
         });
         </script>
-
+        <script>
+        $(document).ready(function() {
+            if (window.location.hash) {
+                var hash = window.location.hash;
+                $('html, body').animate({
+                    scrollTop :  $(hash).offset().top
+                }, 1000);
+            };
+        });
+        </script>
+        @if(!empty(Session::get('submit-success')) && Session::get('submit-success') == 1)
+            <script type="text/javascript">
+                $(window).load(function(){
+                    $('#modal-contact-us').modal('show');
+                });
+            </script>
+        @endif
 		<script src="{{ secure_asset('TourNest-master/assets/js/jquery.js')}}"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 
@@ -1237,7 +1287,9 @@
 
 
 		<!--bootstrap.min.js-->
-		<script  src="{{ secure_asset('TourNest-master/assets/js/bootstrap.min.js')}}"></script>
+		<!-- <script  src="{{ secure_asset('TourNest-master/assets/js/bootstrap.min.js')}}"></script> -->
+		<script  src="{{ secure_asset('TourNest-master/assets/js/bootstrap-3.3.1.js')}}"></script>
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> -->
 
 		<!-- bootsnav js -->
 		<script src="{{ secure_asset('TourNest-master/assets/js/bootsnav.js')}}"></script>

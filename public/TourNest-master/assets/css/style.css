@@ -56,7 +56,14 @@ body{
 	overflow-x:hidden;
 
 }
+body.modal-open .modal {
+    display: flex !important;
+    height: 100%;
+}
 
+body.modal-open .modal .modal-dialog {
+    margin: auto;
+}
 .col-xs-5ths,
 .col-sm-5ths,
 .col-md-5ths,
