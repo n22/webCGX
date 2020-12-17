@@ -1139,9 +1139,9 @@
         </section>
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-contact-us">
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-contact-us">
         Launch demo modal
-        </button>
+        </button> -->
 
         <!-- Modal -->
         <div class="modal fade" id="modal-contact-us" tabindex="-1" role="dialog" aria-labelledby="modal-contact-usTitle" aria-hidden="true">
