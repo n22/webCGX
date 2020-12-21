@@ -18,7 +18,7 @@
 		<title>CGX</title>
 
 		<!-- favicon img -->
-		<link rel="shortcut icon" type="image/icon" href="{{ secure_asset('TourNest-master/assets/logo/favicon.png')}}"/>
+		<link rel="shortcut icon" type="image/icon" href="{{ secure_asset('TourNest-master/assets/logo/favicon2.png')}}"/>
 
 		<!--font-awesome.min.css-->
 		<!-- <link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/font-awesome.min.css')}}" /> -->
@@ -78,7 +78,7 @@
 			<div class="header-area">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-2">
+						<div class="col-sm-2" style="z-index: 10;">
 							<div class="logo">
 								<a href="{{ url('/')}}">
                                 <img src="{{ secure_asset('TourNest-master/assets/images/home/cgxlogo.png')}}"/>
@@ -101,6 +101,16 @@
 										<li class="smooth-menu"><a href="#service">Service</a></li>
 										<li class="smooth-menu"><a href="#faq">FAQ</a></li>
 										<li class="smooth-menu"><a href="#contact-us">Contact Us </a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                {{ __('home.switch_language') }}&nbsp;<i class="fas fa-caret-down"></i>
+                                            </a>
+                                            <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item language-option {{ app()->getLocale() == 'en' ? 'active' : '' }}" style="padding: 10px 0 10px" href="{{ route('localization.switch', 'en') }}">English</a>
+                                                <a class="dropdown-item language-option {{ app()->getLocale() == 'id' ? 'active' : '' }}" style="padding: 10px 0 10px" href="{{ route('localization.switch', 'id') }}">Bahasa Indonesia</a>
+                                            </div>
+                                        </li>
 										<li>
 											<a style="padding-top:9px;" class="book-btn btn" href="{{ url('/tracking')}}">Tracking
 											</a>
@@ -1008,7 +1018,7 @@
                     <div class="col-lg-12">
                         <div class="client-header text-center">
                             <h2>
-                                <strong style="font-weight:450;">Frequently Asked Questions</strong>
+                                <strong style="font-weight:450;">{{ __('home.faq_header') }}</strong>
                             </h2>
                         </div>
                         <div class="accordion" id="accordionExample">
@@ -1016,55 +1026,66 @@
                             <div class="card">
                                 <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne">
                                     <h2 class="clearfix mb-0">
-                                        <a class="btnn btn-link"  aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i> How much does the shipment and warehouse services cost at CGX?</a>
+                                        <a class="btnn btn-link"  aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i> {{ __('home.faq_title.1') }}</a>
                                     </h2>
                                 </div>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                    <div class="card-body">Our prices and rates here at CGX are standard published rate that you can acquire by emailing us at support@cgx.co.id . However, we also offer customized prices and rates that can be adjusted based on your needs.</div>
+                                    <div class="card-body">{{ __('home.faq_content.1') }}</div>
                                 </div>
                             </div>
                             <hr>
                             <div class="card">
                                 <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo">
                                     <h2 class="mb-0">
-                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> How does CGX shipment process works?</a>
+                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> {{ __('home.faq_title.2') }}</a>
                                     </h2>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                    <div class="card-body">Our shipment process will be based on the type of service and mode of transportation of your choosing. After we receive a delivery order, our well-trained and experienced operational team will deliver your package safely & accurately.</div>
+                                    <div class="card-body">{{ __('home.faq_content.2') }}</div>
                                 </div>
                             </div>
                             <hr>
                             <div class="card">
                                 <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree">
                                     <h2 class="mb-0">
-                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> What are the types of shipment services that CGX offer?</a>
+                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> {{ __('home.faq_title.3') }}</a>
                                     </h2>
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                    <div class="card-body">Ensuring that your package arrives safely is our number one priority. We offer various modes of transportation ranging from Land Transport, Sea Transport, Air Transport, as well as Multi Mode. We also offer shipment via our Courier Service. In addition, CGX also accepts overseas and international shipping services.</div>
+                                    <div class="card-body">{{ __('home.faq_content.3') }}</div>
                                 </div>
                             </div>
                             <hr>
                             <div class="card">
                                 <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour">
                                     <h2 class="mb-0">
-                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> How does the fulfillment process works?</a>
+                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> {{ __('home.faq_title.4') }}</a>
                                     </h2>
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                                    <div class="card-body">CGX fulfillment service manage three crucial parts in an operational system which includes; stock management, item delivery, as well as inventory that are done by professionals. We offer this service with reasonable prices, strategic location, and any risks that might occur in our warehouse are under our responsibility.</div>
+                                    <div class="card-body">{{ __('home.faq_content.4') }}</div>
                                 </div>
                             </div>
                             <hr>
                             <div class="card">
                                 <div class="card-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive">
                                     <h2 class="mb-0">
-                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseFive"><i class="fa fa-chevron-circle-down"></i> Does CGX services includes insurance?</a>
+                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseFive"><i class="fa fa-chevron-circle-down"></i> {{ __('home.faq_title.5') }}</a>
                                     </h2>
                                 </div>
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                                    <div class="card-body">CGX offers the best treatment possible for all of our services. For risks that might occur in our warehouse are 100% covered by CGX and will be under our responsibility. However for any shipment services, insurance will be provided upon request depending on the value of items that you wish to insure.</div>
+                                    <div class="card-body">{{ __('home.faq_content.5') }}</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card">
+                                <div class="card-header" id="headingSix" data-toggle="collapse" data-target="#collapseSix">
+                                    <h2 class="mb-0">
+                                        <a class="btnn btn-link collapsed"  aria-expanded="false" aria-controls="collapseSix"><i class="fa fa-chevron-circle-down"></i> {{ __('home.faq_title.6') }}</a>
+                                    </h2>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                    <div class="card-body">{{ __('home.faq_content.6') }}</div>
                                 </div>
                             </div>
                             <hr>

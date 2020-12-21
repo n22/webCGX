@@ -18,7 +18,7 @@
 		<title>CGX || Tracking</title>
 
 		<!-- favicon img -->
-		<link rel="shortcut icon" type="image/icon" href="{{ secure_asset('TourNest-master/assets/logo/favicon.png')}}"/>
+		<link rel="shortcut icon" type="image/icon" href="{{ secure_asset('TourNest-master/assets/logo/favicon2.png')}}"/>
 
 		<!--font-awesome.min.css-->
 		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/font-awesome.min.css')}}" />
@@ -72,7 +72,7 @@
 			<div class="header-area">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-2">
+						<div class="col-sm-2" style="z-index: 10;">
 							<div class="logo">
 								<a href="{{ url('/')}}">
                                 <img src="{{ secure_asset('TourNest-master/assets/images/home/cgxlogo.png')}}"/>

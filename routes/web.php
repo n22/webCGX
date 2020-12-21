@@ -25,5 +25,6 @@ Route::get('/tracking', function () {
     return view('tracking');
 });
 
+Route::get('lang/{language}', 'LocalizationController@switch')->name('localization.switch');
 Route::get('captcha-form', 'CaptchaController@captchForm');
 Route::post('store-captcha-form', 'CaptchaController@storeCaptchaForm');
