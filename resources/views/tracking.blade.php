@@ -95,7 +95,17 @@
 										<li class=""><a href="{{ route('home')}}/#service">Service</a></li>
 										<li class=""><a href="{{ route('home')}}/#faq">FAQ</a></li>
 										<li class=""><a href="{{ route('home')}}/#contact-us">Contact Us </a></li>
-										<!-- <li class="smooth-menu"><a href="#blog">blog</a></li>
+										<li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                {{ __('home.switch_language') }}&nbsp;<i class="fas fa-caret-down"></i>
+                                            </a>
+                                            <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item language-option {{ app()->getLocale() == 'en' ? 'active' : '' }}" style="padding: 10px 0 10px" href="{{ route('localization.switch', 'en') }}">English</a>
+                                                <a class="dropdown-item language-option {{ app()->getLocale() == 'id' ? 'active' : '' }}" style="padding: 10px 0 10px" href="{{ route('localization.switch', 'id') }}">Bahasa Indonesia</a>
+                                            </div>
+                                        </li>
+                                        <!-- <li class="smooth-menu"><a href="#blog">blog</a></li>
 										<li class="smooth-menu"><a href="#subs">subscription</a></li> -->
 										<li>
 											<button class="book-btn">Tracking
