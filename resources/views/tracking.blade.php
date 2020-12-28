@@ -21,7 +21,8 @@
 		<link rel="shortcut icon" type="image/icon" href="{{ secure_asset('TourNest-master/assets/logo/favicon2.png')}}"/>
 
 		<!--font-awesome.min.css-->
-		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/font-awesome.min.css')}}" />
+		<!-- <link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/font-awesome.min.css')}}" /> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 		<!--animate.css-->
 		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/animate.css')}}" />
@@ -40,7 +41,8 @@
         <link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/jquery-ui.min.css')}}" />
 
 		<!--bootstrap.min.css-->
-		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/bootstrap.min.css')}}" />
+		<!-- <link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/bootstrap.min.css')}}" /> -->
+        <link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/bootstrap-3.3.1.css')}}" />
 
 		<!-- bootsnav -->
 		<link rel="stylesheet" href="{{ secure_asset('TourNest-master/assets/css/bootsnav.css')}}"/>
@@ -310,6 +312,8 @@
 								<a href="{{ route('home')}}/#contact-us"><h2>Contact Us</h2></a>
                                 <br>
 								<a href="{{ route('home')}}/#faq"><h2>FAQ</h2></a>
+                                <br>
+								<a href="#track-shipment"><h2>Tracking</h2></a>
 							</div><!--/.single-footer-item-->
 
 						</div><!--/.col-->

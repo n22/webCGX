@@ -1635,6 +1635,7 @@ html,body{
     .track-result-content .track-result-detail{
         padding-top: 1em;
         padding-bottom: 20px;
+        padding-right: 0px;
     }
 }
 /* .parent {  } */

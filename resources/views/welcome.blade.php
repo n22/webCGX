@@ -1215,6 +1215,9 @@
 								<a href="#contact-us"><h2>Contact Us</h2></a>
                                 <br>
 								<a href="#faq"><h2>FAQ</h2></a>
+                                <br>
+                                <a href="{{ url('/tracking')}}"><h2>Tracking</h2></a>
+
 							</div><!--/.single-footer-item-->
 
 						</div><!--/.col-->
